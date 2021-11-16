@@ -1,0 +1,1114 @@
+apiLogger::2020-03-09 13:07:57,690::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:07:58,314::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:24:57,629::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:24:58,241::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:25:10,652::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:25:10,654::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:25:10,654::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpb4dxjz7u 
+apiLogger::2020-03-09 13:25:10,654::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:25:10,654::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:25:11,442::content_type.py::(line:205)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 13:25:11,451::content_type.py::(line:206)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 77, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 13:25:11,451::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:25:11,451::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:28:36,861::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:28:46,559::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:28:47,181::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:28:51,445::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:28:51,448::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:28:51,448::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmptuax90wd 
+apiLogger::2020-03-09 13:28:51,449::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:28:51,449::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:28:51,449::content_type.py::(line:205)::find_content_type()::ERROR : 'NoneType' object has no attribute 'loader'
+apiLogger::2020-03-09 13:28:51,450::content_type.py::(line:206)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    py_comm_comp = importlib.util.module_from_spec(spec)
+$  File "<frozen importlib._bootstrap>", line 568, in module_from_spec
+$AttributeError: 'NoneType' object has no attribute 'loader'::::endTrace
+apiLogger::2020-03-09 13:28:51,450::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:28:51,450::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:29:58,190::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:29:58,791::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:30:02,976::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:30:02,979::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:30:02,979::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpj5r0qq67 
+apiLogger::2020-03-09 13:30:02,980::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:30:02,980::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:30:02,980::content_type.py::(line:205)::find_content_type()::ERROR : 'NoneType' object has no attribute 'loader'
+apiLogger::2020-03-09 13:30:02,981::content_type.py::(line:206)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    py_comm_comp = importlib.util.module_from_spec(spec)
+$  File "<frozen importlib._bootstrap>", line 568, in module_from_spec
+$AttributeError: 'NoneType' object has no attribute 'loader'::::endTrace
+apiLogger::2020-03-09 13:30:02,981::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:30:02,981::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:31:22,580::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:31:26,859::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:31:36,947::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:31:37,544::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:31:43,163::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:31:43,166::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:31:43,167::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpu5830sbr 
+apiLogger::2020-03-09 13:31:43,167::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:31:43,167::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:31:43,168::content_type.py::(line:207)::find_content_type()::ERROR : 'NoneType' object has no attribute 'loader'
+apiLogger::2020-03-09 13:31:43,169::content_type.py::(line:208)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 77, in find_content_type
+$    py_comm_comp = importlib.util.module_from_spec(spec)
+$  File "<frozen importlib._bootstrap>", line 568, in module_from_spec
+$AttributeError: 'NoneType' object has no attribute 'loader'::::endTrace
+apiLogger::2020-03-09 13:31:43,169::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:31:43,169::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:32:37,273::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:32:41,835::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:32:42,431::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:32:45,971::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:32:45,973::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:32:45,974::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp1cz9v8cf 
+apiLogger::2020-03-09 13:32:45,974::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:32:45,974::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:32:45,975::content_type.py::(line:207)::find_content_type()::ERROR : 'NoneType' object has no attribute 'loader'
+apiLogger::2020-03-09 13:32:45,976::content_type.py::(line:208)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 77, in find_content_type
+$    py_comm_comp = importlib.util.module_from_spec(spec)
+$  File "<frozen importlib._bootstrap>", line 568, in module_from_spec
+$AttributeError: 'NoneType' object has no attribute 'loader'::::endTrace
+apiLogger::2020-03-09 13:32:45,976::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:32:45,976::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:34:54,637::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:34:58,118::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:34:58,120::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:34:58,121::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpk552b6bj 
+apiLogger::2020-03-09 13:34:58,121::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:34:58,121::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:34:58,974::content_type.py::(line:203)::find_content_type()::ERROR : No module named 'parse_hocr'
+apiLogger::2020-03-09 13:34:58,975::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 14, in <module>
+$    from py_comm_comp import refrence_anchor_generator
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/refrence_anchor_generator.py", line 9, in <module>
+$    import parse_hocr
+$ModuleNotFoundError: No module named 'parse_hocr'::::endTrace
+apiLogger::2020-03-09 13:34:58,975::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:34:58,976::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:36:12,053::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:36:45,140::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:36:45,144::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:36:45,144::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp04u10nz4 
+apiLogger::2020-03-09 13:36:45,144::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:36:45,145::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:36:45,941::content_type.py::(line:203)::find_content_type()::ERROR : No module named 'parse_hocr'
+apiLogger::2020-03-09 13:36:45,942::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 14, in <module>
+$    from py_comm_comp import refrence_anchor_generator
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/refrence_anchor_generator.py", line 6, in <module>
+$    import parse_hocr
+$ModuleNotFoundError: No module named 'parse_hocr'::::endTrace
+apiLogger::2020-03-09 13:36:45,943::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:36:45,943::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:36:47,535::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:38:47,954::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:38:47,957::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:38:47,957::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpu023j3jd 
+apiLogger::2020-03-09 13:38:47,958::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:38:47,958::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:38:48,747::content_type.py::(line:203)::find_content_type()::ERROR : No module named 'test_square_sample'
+apiLogger::2020-03-09 13:38:48,748::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 17, in <module>
+$    from py_comm_comp import util_boxes
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/util_boxes.py", line 9, in <module>
+$    import test_square_sample
+$ModuleNotFoundError: No module named 'test_square_sample'::::endTrace
+apiLogger::2020-03-09 13:38:48,748::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:38:48,748::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:38:50,387::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:39:43,144::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:39:43,147::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:39:43,147::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpn7ckl2v3 
+apiLogger::2020-03-09 13:39:43,148::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:39:43,148::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:39:43,926::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 13:39:43,928::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 13:39:43,928::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:39:43,928::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:39:46,224::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:39:49,333::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:39:49,340::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:39:49,341::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmphtvv8h3u 
+apiLogger::2020-03-09 13:39:49,341::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:39:49,341::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:39:50,123::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 13:39:50,124::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 13:39:50,124::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:39:50,125::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:45:56,933::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:45:57,526::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:46:02,237::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:46:02,239::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:46:02,240::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp6q_2p8p9 
+apiLogger::2020-03-09 13:46:02,240::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:46:02,240::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:46:03,156::content_type.py::(line:203)::find_content_type()::ERROR : No module named 'fasttext_pybind'
+apiLogger::2020-03-09 13:46:03,165::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 19, in <module>
+$    from py_comm_comp import spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/spam_detect.py", line 7, in <module>
+$    from fastText import FastText
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/fastText/__init__.py", line 12, in <module>
+$    from .FastText import train_supervised
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/fastText/FastText.py", line 12, in <module>
+$    import fasttext_pybind as fasttext
+$ModuleNotFoundError: No module named 'fasttext_pybind'::::endTrace
+apiLogger::2020-03-09 13:46:03,166::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:46:03,166::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:47:10,476::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:47:11,072::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:47:14,580::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:47:14,582::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:47:14,582::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp19rm5prs 
+apiLogger::2020-03-09 13:47:14,583::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:47:14,583::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:47:15,357::content_type.py::(line:203)::find_content_type()::ERROR : No module named 'fastText'
+apiLogger::2020-03-09 13:47:15,358::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 19, in <module>
+$    from py_comm_comp import spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/spam_detect.py", line 7, in <module>
+$    from fastText import FastText
+$ModuleNotFoundError: No module named 'fastText'::::endTrace
+apiLogger::2020-03-09 13:47:15,358::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:47:15,358::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 13:47:39,409::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:47:40,006::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 13:47:46,452::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 13:47:46,454::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 13:47:46,454::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpz544e2kn 
+apiLogger::2020-03-09 13:47:46,455::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 13:47:46,455::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 13:47:47,222::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 13:47:47,224::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 13:47:47,224::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 13:47:47,224::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:11:02,927::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:11:03,536::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:11:16,126::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:11:16,754::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:11:22,359::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:11:22,363::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:11:22,363::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpwphkirg3 
+apiLogger::2020-03-09 14:11:22,364::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:11:22,364::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:11:23,138::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 14:11:23,139::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 14:11:23,139::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 14:11:23,139::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:12:52,307::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:13:05,293::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:13:05,296::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:13:05,296::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpnpqpg_3y 
+apiLogger::2020-03-09 14:13:05,296::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:13:05,297::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:13:14,360::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:13:19,159::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:13:19,160::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:13:19,161::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpni0tk_wi 
+apiLogger::2020-03-09 14:13:19,161::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:13:19,161::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:13:44,017::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:13:47,755::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:13:47,757::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:13:47,758::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpcf738ksg 
+apiLogger::2020-03-09 14:13:47,758::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:13:47,758::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:14:17,328::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:14:45,977::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:15:05,751::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:15:11,217::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:15:11,218::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:15:11,218::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpwghz3v2l 
+apiLogger::2020-03-09 14:15:11,218::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:15:11,218::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:15:20,904::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:15:27,325::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:15:27,327::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:15:27,327::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp6jc53osu 
+apiLogger::2020-03-09 14:15:27,327::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:15:27,328::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:15:28,600::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-09 14:15:28,621::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-08
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-09 14:15:28,645::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-09 14:15:28,645::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-09 14:15:28,645::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-09 14:15:28,646::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-08\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-29\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-09 14:15:28,646::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 14:15:28,646::structured_code.py::(line:20)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-09 14:15:28,646::structured_code.py::(line:21)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-09 14:15:28,646::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 14:15:37,222::structured_code.py::(line:78)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-09 14:15:37,223::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:19:51,191::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:19:51,194::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:19:51,194::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp5tuwc9d1 
+apiLogger::2020-03-09 14:19:51,195::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:19:51,195::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:19:51,195::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:19:51,279::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:19:51,351::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:19:51,447::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmp5tuwc9d1
+apiLogger::2020-03-09 14:19:52,221::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-09 14:19:52,221::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:19:52,221::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:19:52,227::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,227::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:19:52,227::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:19:52,227::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-09 14:19:52,232::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,233::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-09 14:19:52,233::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-09 14:19:52,233::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-09 14:19:52,235::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,235::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-09 14:19:52,235::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-09 14:19:52,235::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-09 14:19:52,237::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,237::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-09 14:19:52,237::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-09 14:19:52,237::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-09 14:19:52,240::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,240::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-09 14:19:52,241::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-09 14:19:52,241::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-09 14:19:52,244::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:19:52,244::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-09 14:19:52,244::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-09 14:19:52,245::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:20:14,588::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-09 14:20:14,588::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-09 14:20:14,588::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-09 14:20:14,589::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 14:20:14,589::structured_code.py::(line:20)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-09 14:20:14,589::structured_code.py::(line:21)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-09 14:20:14,589::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 14:20:27,323::structured_code.py::(line:78)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-09 14:20:27,323::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:20:47,704::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:20:47,756::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:20:47,756::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpfclkc_hh 
+apiLogger::2020-03-09 14:20:47,757::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:20:47,757::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:20:47,758::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:20:48,281::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:20:48,362::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:20:49,004::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpfclkc_hh
+apiLogger::2020-03-09 14:20:51,787::content_type.py::(line:97)::find_content_type()::DEBUG : ['Adverse Event (AE) Form \nGENERAL INFORMATION \nArgus ID:        LAM ID: NDE2017DE000002  AEGIS ID:       \nCASE \nReceived Date (DD-MON-YYYY): 12-Dec-2017 (MRD) \nDETAILS: \n \nPATIENT INFORMATION \nPatient ID:  Patient Initials:   Date of Birth (DD-MMM-YYYY):   Age:  Age Unit:  Gender (M/F/Unk):  \n                         -     -                            M \nPregnant:  Ethnicity:  Weight:  Height: \n Yes     No     Unk   Asian     Black             kgs  lbs          cm    in \nLast Menstruation Date (DD-MMM-YYYY): __________   Caucasian    Other \nExpected Delivery Date (DD-MMM-YYYY): __________ \n \nRELEVANT MEDICAL HISTORY \nCondition  C - Current Condition     D - Drug Reaction History   Hd - Historical Drug    Unk - Condition type unknown \nType  H - Historical condition  F - Family History  I – Indication  P – Procedure \nStart Date  Stop Date  Condition \nOngoing  Description as Reported \n(DD-MMM-YYYY)  (DD-MMM-YYYY)  Type \n         \n         \n \nRELEVANT LABORATORY DATA / TESTS \nLab Test Name  Do not use abbreviations.       \nDate \nLab Test Name  Value  Unit  Normal Range \n(DD-MMM-YYYY) \n         \n         \n \n    SUSPECT PRODUCT(S) \nAction Taken  N - None  D - Discontinued  DC - Dose Changed \nTreatment Dates  Batch \nDose &  Action  No. & \nTrade/Generic Name  Indication  Formulation  Route  Freq. \nDose unit  Start  Stop  Taken  Expiry \n(dd/mmm/yyyy)  (dd/mmm/yyyy)  Date \nValsartan    capsule  0.5 mg    daily  Apr 2016    N   \n \n                   \n \nDE/RE-CHALLENGE INFORMATION \nDid the adverse event(s) abate after stopping the suspect drug?  Did the adverse event(s) recur on re-administration of the suspect drug?  \nSuspected drug_     __                           _  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nSuspected drug_     __                           _  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nSuspected drug_     ____________     __  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nCONCOMITANT MEDICATION(S) \nAction Taken  N - None  D - Discontinued  DC - Dose Changed \nTrade/Generic Name  Indication  Formulation  Dose &  Route  Freq.  Treatment Dates  Action  Batch \nEffective Date: 03 Oct 2017, version 2.0  Standard AE Form  Page 1 of 2 ', 'Adverse Event (AE) Form \nDose unit  Taken  No. & \nStart \nStop \nExpiry \n(DDYY-MYYM)M  - (DD-MMM-YYYY)  Date \n                   \n \nTREATMENT MEDICATION(S) \nAction Taken  N - None  D - Discontinued  DC - Dose Changed \nTreatment Dates  Batch \nDose &  Action  No. & \nTrade/Generic Name  Indication  Formulation  Route  Freq. \nDose unit  Start  Stop  Taken  Expiry \n(DD-MMM-YYYY)  (DD-MMM-YYYY)  Date \n                   \n \nEVENT(S) \nREC – Completely Recovered    UNC- Condition Unchanged or Ongoing  UNK – Outcome Unknown  F - Fatal \nOutcome \nIMP – Condition Improving  SEQ - Recovered w/ Sequelae    NR - Not Report   DET – Condition Deteriorating \nSerious  HOSP - Inpatient/Prolonged Hospitalization  DIS - Persistent/Significant Disability or Incapacity  D - Death  NS - Non-Serious \nCriteria  CA - Congenital Anomaly/Birth Defect    MS - Medically Significant  LT – Life-Threatening \nReported \nS - Suspected/ Related  NS - Not Suspected/ Not Related  NR - Not Reported     UNK – Unknown Causality                  not assessable \nCausality \nSerious  Event \nOnset Date  Stop Date \nVerbatim Term  Outcome  Criteria  Causality \n(DD-MMM-YYYY)  (DD-MMM-YYYY) \nAs per Reporter  \n1 Leukocytoclastic vasculitis      NR    NR \n           \n \nNARRATIVE \nGeneral \nCapture any relevant information that does not fit in a structured field in either Affiliate or on the Standard AE Form. \nStructure \nInitial spontaneous report received from physician via phone on 12 Dec 2017.  \nA male patient began treatment with Valsartan 0.5 mg in Apr 2016 due to an unspecified indication.   \nThe physician stated that treatment with valsartan was well tolerated so far, however, currently the patient experienced rash all over the body. \nPerformed biopsy by dermatologist  revealed leukocytoclastic vasculitis as diagnosis, possibly drug-induced. \nOutcome, seriousness and causality were not explicitly reported by physician. Seriousness was considered serious (medically significant) by \nCO. \nTreatment with valsartan was reported as ongoing. \n \nDEATH INFORMATION \nDate of Death (DD-MMM-YYYY):   Autopsy performed?   Autopsy Results Available?  \n     -     -        Yes     No     Unk   Yes     No \nCause of Death & Autopsy Results:       \nADMINISTRATIVE NOTES \n \n \n \nEffective Date: 03 Oct 2017, version 2.0  Standard AE Form  Page 2 of 2 ']
+apiLogger::2020-03-09 14:20:51,787::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:20:51,788::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:20:51,794::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeStd_AE
+apiLogger::2020-03-09 14:20:51,794::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:20:51,794::content_type.py::(line:109)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-09 14:20:51,794::content_type.py::(line:115)::find_content_type()::DEBUG : inside: 0
+apiLogger::2020-03-09 14:20:59,367::pvi_api.py::(line:166)::main_function()::DEBUG : ['Std_AE', 'std_ae', 'Adverse Event (AE) Form \nGENERAL INFORMATION \nArgus ID:        LAM ID: NDE2017DE000002  AEGIS ID:       \nCASE \nReceived Date (DD-MON-YYYY): 12-Dec-2017 (MRD) \nDETAILS: \n \nPATIENT INFORMATION \nPatient ID:  Patient Initials:   Date of Birth (DD-MMM-YYYY):   Age:  Age Unit:  Gender (M/F/Unk):  \n                         -     -                            M \nPregnant:  Ethnicity:  Weight:  Height: \n Yes     No     Unk   Asian     Black             kgs  lbs          cm    in \nLast Menstruation Date (DD-MMM-YYYY): __________   Caucasian    Other \nExpected Delivery Date (DD-MMM-YYYY): __________ \n \nRELEVANT MEDICAL HISTORY \nCondition  C - Current Condition     D - Drug Reaction History   Hd - Historical Drug    Unk - Condition type unknown \nType  H - Historical condition  F - Family History  I – Indication  P – Procedure \nStart Date  Stop Date  Condition \nOngoing  Description as Reported \n(DD-MMM-YYYY)  (DD-MMM-YYYY)  Type \n         \n         \n \nRELEVANT LABORATORY DATA / TESTS \nLab Test Name  Do not use abbreviations.       \nDate \nLab Test Name  Value  Unit  Normal Range \n(DD-MMM-YYYY) \n         \n         \n \n    SUSPECT PRODUCT(S) \nAction Taken  N - None  D - Discontinued  DC - Dose Changed \nTreatment Dates  Batch \nDose &  Action  No. & \nTrade/Generic Name  Indication  Formulation  Route  Freq. \nDose unit  Start  Stop  Taken  Expiry \n(dd/mmm/yyyy)  (dd/mmm/yyyy)  Date \nValsartan    capsule  0.5 mg    daily  Apr 2016    N   \n \n                   \n \nDE/RE-CHALLENGE INFORMATION \nDid the adverse event(s) abate after stopping the suspect drug?  Did the adverse event(s) recur on re-administration of the suspect drug?  \nSuspected drug_     __                           _  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nSuspected drug_     __                           _  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nSuspected drug_     ____________     __  Yes     No     Unk     N.A.  Suspected drug_     ______________  Yes     No     Unk     N.A. \nCONCOMITANT MEDICATION(S) \nAction Taken  N - None  D - Discontinued  DC - Dose Changed \nTrade/Generic Name  Indication  Formulation  Dose &  Route  Freq.  Treatment Dates  Action  Batch \nEffective Date: 03 Oct 2017, version 2.0  Standard AE Form  Page 1 of 2 ']
+apiLogger::2020-03-09 14:20:59,367::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 14:20:59,367::structured_code.py::(line:20)::struct_parser()::INFO : Content type is Std_AE
+apiLogger::2020-03-09 14:20:59,368::structured_code.py::(line:21)::struct_parser()::INFO : Module name is std_ae
+apiLogger::2020-03-09 14:20:59,368::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 14:21:40,774::structured_code.py::(line:78)::struct_parser()::INFO : completed parsing in std_ae
+apiLogger::2020-03-09 14:21:40,774::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:21:55,172::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:21:55,174::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:21:55,174::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpdisdunlx 
+apiLogger::2020-03-09 14:21:55,174::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:21:55,175::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:21:55,175::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:21:55,195::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:21:55,268::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:21:55,299::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpdisdunlx
+apiLogger::2020-03-09 14:21:55,484::content_type.py::(line:97)::find_content_type()::DEBUG : ['CIOMS FORM\nSUSPECT ADVERSE REACTION REPORT\nI. REACTION INFORMATION \n1. PATIENT INITIALS 1a. COUNTRY 2. DATE OF BIRTH 2a. AGE 3. SEX 3a. WEIGHT 4-6 REACTION ONSET 8-12 CHECK ALL\n(first, last) UNITED STATES  Day Month Year Unk Day Month Year APPROPRIATE TO\nPRIVACY PRIVACY Unk Unk Unk ADVERSE REACTION\n7 + 13 DESCRIBE REACTION(S) (including relevant tests/lab data)\nEvent Verbatim [PREFERRED TERM] (Related symptoms if any separated by commas) PATIENT DIED\ndeath [Death]\nINVOLVED OR\nPROLONGED INPATIENT\nHOSPITALISATION\nINVOLVED PERSISTENT\nOR SIGNIFICANT\nDISABILITY OR\nINCAPACITY\nLIFE\nTHREATENING\nII. SUSPECT DRUG(S) INFORMATION \n14. SUSPECT DRUG(S) (include generic name) 20. DID REACTION\n#1 ) Test Product A (PARACETAMOL) Capsule, 5 milligram ABATE AFTER STOPPING\nDRUG?\n15. DAILY DOSE(S) 16. ROUTE(S) OF ADMINISTRATION\n#1 )   #1 ) Unknown YES NO NA\n17. INDICATION(S) FOR USE 21. DID REACTION\n#1 ) Unknown REAPPEAR AFTER\nREINTRODUCTION?\n18. THERAPY DATES(from/to) 19. THERAPY DURATION\n#1 ) Unknown #1 ) Unknown YES NO NA\nIII. CONCOMITANT DRUG(S) AND HISTORY \n22. CONCOMITANT DRUG(S) AND DATES OF ADMINISTRATION (exclude those used to treat reaction)\n23. OTHER RELEVANT HISTORY. (e.g. diagnostics, allergies, pregnancy with last month of period, etc.)\nFrom/To Dates Type of History / Notes Description\nUnknown\nIV. MANUFACTURER INFORMATION \n24a. NAME AND ADDRESS OF MANUFACTURER 26. REMARKS\nRxlogix Medically Confirmed: No \nJames M Potter\n500 College Rd East, Suite 203\nPrinceton, New Jersey 08540  UNITED STATES\nPhone: 223 910 1072 Extn: 1 609 \n24b. MFR CONTROL NO. 25b. NAME AND ADDRESS OF REPORTER\n16US000783 \n24c. DATE RECEIVED 24d. REPORT SOURCE\n        BY MANUFACTURER STUDY LITERATURE\n03-JUL-2016 HEALTH OTHER:Spontaneous \nPROFESSIONAL\nDATE OF THIS REPORT 25a. REPORT TYPE\n08-DEC-2017\nINITIAL FOLLOWUP:\n08-Dec-2017 10:11']
+apiLogger::2020-03-09 14:21:55,484::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:21:55,485::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:21:55,489::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeArgus-CIOMS
+apiLogger::2020-03-09 14:21:55,489::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:21:55,489::content_type.py::(line:109)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-09 14:21:55,489::content_type.py::(line:115)::find_content_type()::DEBUG : inside: 0
+apiLogger::2020-03-09 14:21:55,514::pvi_api.py::(line:166)::main_function()::DEBUG : ['Argus-CIOMS', 'cioms', 'CIOMS FORM\nSUSPECT ADVERSE REACTION REPORT\nI. REACTION INFORMATION \n1. PATIENT INITIALS 1a. COUNTRY 2. DATE OF BIRTH 2a. AGE 3. SEX 3a. WEIGHT 4-6 REACTION ONSET 8-12 CHECK ALL\n(first, last) UNITED STATES  Day Month Year Unk Day Month Year APPROPRIATE TO\nPRIVACY PRIVACY Unk Unk Unk ADVERSE REACTION\n7 + 13 DESCRIBE REACTION(S) (including relevant tests/lab data)\nEvent Verbatim [PREFERRED TERM] (Related symptoms if any separated by commas) PATIENT DIED\ndeath [Death]\nINVOLVED OR\nPROLONGED INPATIENT\nHOSPITALISATION\nINVOLVED PERSISTENT\nOR SIGNIFICANT\nDISABILITY OR\nINCAPACITY\nLIFE\nTHREATENING\nII. SUSPECT DRUG(S) INFORMATION \n14. SUSPECT DRUG(S) (include generic name) 20. DID REACTION\n#1 ) Test Product A (PARACETAMOL) Capsule, 5 milligram ABATE AFTER STOPPING\nDRUG?\n15. DAILY DOSE(S) 16. ROUTE(S) OF ADMINISTRATION\n#1 )   #1 ) Unknown YES NO NA\n17. INDICATION(S) FOR USE 21. DID REACTION\n#1 ) Unknown REAPPEAR AFTER\nREINTRODUCTION?\n18. THERAPY DATES(from/to) 19. THERAPY DURATION\n#1 ) Unknown #1 ) Unknown YES NO NA\nIII. CONCOMITANT DRUG(S) AND HISTORY \n22. CONCOMITANT DRUG(S) AND DATES OF ADMINISTRATION (exclude those used to treat reaction)\n23. OTHER RELEVANT HISTORY. (e.g. diagnostics, allergies, pregnancy with last month of period, etc.)\nFrom/To Dates Type of History / Notes Description\nUnknown\nIV. MANUFACTURER INFORMATION \n24a. NAME AND ADDRESS OF MANUFACTURER 26. REMARKS\nRxlogix Medically Confirmed: No \nJames M Potter\n500 College Rd East, Suite 203\nPrinceton, New Jersey 08540  UNITED STATES\nPhone: 223 910 1072 Extn: 1 609 \n24b. MFR CONTROL NO. 25b. NAME AND ADDRESS OF REPORTER\n16US000783 \n24c. DATE RECEIVED 24d. REPORT SOURCE\n        BY MANUFACTURER STUDY LITERATURE\n03-JUL-2016 HEALTH OTHER:Spontaneous \nPROFESSIONAL\nDATE OF THIS REPORT 25a. REPORT TYPE\n08-DEC-2017\nINITIAL FOLLOWUP:\n08-Dec-2017 10:11']
+apiLogger::2020-03-09 14:21:55,514::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 14:21:55,514::structured_code.py::(line:20)::struct_parser()::INFO : Content type is Argus-CIOMS
+apiLogger::2020-03-09 14:21:55,514::structured_code.py::(line:21)::struct_parser()::INFO : Module name is cioms
+apiLogger::2020-03-09 14:21:55,514::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 14:21:55,514::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:22:22,280::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:22:22,281::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:22:22,281::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpy2r0u9uu 
+apiLogger::2020-03-09 14:22:22,281::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:22:22,281::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:22:22,281::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:22:22,308::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:22:22,382::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:22:22,420::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpy2r0u9uu
+apiLogger::2020-03-09 14:22:22,799::content_type.py::(line:97)::find_content_type()::DEBUG : ['CIOMS FORM\nSUSPECT ADVERSE REACTION REPORT\nI. REACTION INFORMATION \n1. PATIENT INITIALS 1a. COUNTRY 2. DATE OF BIRTH 2a. AGE 3. SEX 3a. WEIGHT 4-6 REACTION ONSET 8-12 CHECK ALL\n(first, last) UNITED STATES  Day Month Year 3 50.00 Day Month Year APPROPRIATE TO\nPRIVACY PRIVACY Decades Male kg 12 JAN 2016 ADVERSE REACTION\n7 + 13 DESCRIBE REACTION(S) (including relevant tests/lab data)\nEvent Verbatim [PREFERRED TERM] (Related symptoms if any separated by commas) PATIENT DIED\nDeath [Death] Date: 06-SEP-2016\nINVOLVED OR\nCerebral Haemorrhage [Cerebral haemorrhage] PROLONGED INPATIENT\nHOSPITALISATION\nCase Description: This serious report from study report from the United States received on 06-SEP-2016 by \nan investigator describes the occurrence of Cerebral haemorrhage, and Death in a 25 year-old White male  INVOLVED PERSISTENT\nOR SIGNIFICANT\nsubject taking Rxstudy1 as a participant in the following clinical trial protocol: Rx Study 1: Clinical study double  DISABILITY OR\nblinded for drug and vaccine INCAPACITY\nThe past medical history for the subject included: Hypertension, \nLIFE\n (Continued on Additional Information Page)  THREATENING\nII. SUSPECT DRUG(S) INFORMATION \n14. SUSPECT DRUG(S) (include generic name) 20. DID REACTION\n#1 ) Rxstudy1 (Code not broken) Capsule {Lot # 12345; Exp.Dt. 01-SEP-2016} ABATE AFTER STOPPING\nDRUG?\n (Continued on Additional Information Page) \n15. DAILY DOSE(S) 16. ROUTE(S) OF ADMINISTRATION\n#1 ) 50 mg, bid #1 ) Oral YES NO NA\n17. INDICATION(S) FOR USE 21. DID REACTION\n#1 ) Rash (Rash) REAPPEAR AFTER\nREINTRODUCTION?\n (Continued on Additional Information Page) \n18. THERAPY DATES(from/to) 19. THERAPY DURATION\n#1 ) JUL-2016 / 15-AUG-2016 #1 ) Unknown YES NO NA\nIII. CONCOMITANT DRUG(S) AND HISTORY \n22. CONCOMITANT DRUG(S) AND DATES OF ADMINISTRATION (exclude those used to treat reaction)\n23. OTHER RELEVANT HISTORY. (e.g. diagnostics, allergies, pregnancy with last month of period, etc.)\nFrom/To Dates Type of History / Notes Description\n05-AUG-2016 to Ongoing Current Condition Hyperaemia (Hyperaemia) \nThe patient\'s currently suffering from "Hperaemia" \n01-JAN-2014 to 06-MAY-2014 Historical Condition Abdominal pain (Abdominal pain) \nPatient suffered from "Abdominal Pain" in the past \nIV. MANUFACTURER INFORMATION \n24a. NAME AND ADDRESS OF MANUFACTURER 26. REMARKS\nRxlogix Medically Confirmed: Yes\nJames M Potter\nPatient ID: 123EKL90\n500 College Rd East, Suite 203\nStudy ID: Rx Study 1\nPrinceton, New Jersey 08540  UNITED STATES\nPhone: 223 910 1072 Extn: 1 609  Center ID: A-890 \n24b. MFR CONTROL NO. 25b. NAME AND ADDRESS OF REPORTER\nMr Chris F Taylor Y\n16US001685 \nDept: Pathology, Pathlab\nREF: QA-89\n24c. DATE RECEIVED 24d. REPORT SOURCE\n        BY MANUFACTURER STUDY LITERATURE 21/6 Author Road\nTrenton,  New Jersey 1278\n06-SEP-2016 HEALTH OTHER: UNITED STATES \nPROFESSIONAL\nDATE OF THIS REPORT 25a. REPORT TYPE\n16-SEP-2017\nINITIAL FOLLOWUP:\n16-Sep-2017 15:00', 'Page 2 of 3\nMfr. Control Number: 16US001685\nADDITIONAL INFORMATION\n7+13. DESCRIBE REACTION(S) continued\n Abdominal pain. The concurrent medical history for the subject included: Hyperaemia, Hypertension. No allergy history for the subject \nwas reported. No procedure history for the subject was reported. \nNo information was provided for concomitant medications.\nThe subject commenced treatment with Rxstudy1 on 10-JUL-2016. On JUL-2016 the dose was 50 mg, bid. \nThe subject developed the following adverse events: Cerebral haemorrhage which started on 12-JAN-2016 (outcome was death due \nto ae/infection) and stopped on 01-FEB-2016, the intensity was assessed as severe. Death which started on 06-SEP-2016 (outcome \nwas fatal) and stopped on 06-SEP-2016, the intensity was assessed as severe.\nNo information was provided concerning medical treatment medications.\nThe action taken with the primary suspect therapy Rxstudy1 was withdrawn. \nThe subject died on 06-SEP-2016 due to Cerebral haemorrhage.\nAn autopsy was performed with cause of death indicated as: Cerebral haemorrhage.\nThis report was considered serious for the following events: Cerebral haemorrhage (Life Threatening), Death (Death).\nThe causality assessed by an investigator for the event(s) of Cerebral haemorrhage, Death as Related to Rxstudy1.\nThe following laboratory and/or diagnostic tests were performed:\nTest name: Blood test (Range: Low-10 %, High-50 %)\n- Test Date:  01-SEP-2016\n  Test Results:  50 %\n  Notes:  "normal result"\nTest name: Zinc sulphate turbidity test (Range: Low-20 %, High-200 %)\n- Test Date:  01-SEP-2016\n  Test Results:  60 %\n  Notes:  Patient tests "positive" for this\nCopyright © "RxLogix"\nCase Comment: The action taken with the primary suspect therapy Rxstudy1 was withdrawn. \n13. Lab Data\n# Date Test / Assessment / Notes Results Normal High / Low\n1 01-SEP-2016 Blood test 50 percent  50\nnormal  10 \n"normal result" \n2 01-SEP-2016 Zinc sulphate turbidity test 60 percent  200\nPositive  20 \nPatient tests "positive" for this \n13. Relevant Tests\nzinc sulphate turbidity test \n14-19. SUSPECT DRUG(S) continued\n15. DAILY DOSE(S); 18. THERAPY DATES (from/to);\n14. SUSPECT DRUG(S) (include generic name) 16. ROUTE(S) OF ADMIN 17. INDICATION(S) FOR USE 19. THERAPY DURATION\n#1 ) Rxstudy1 (Code not broken) Capsule {Lot  50 mg, bid; Oral  Rash (Rash) JUL-2016 / \n# 12345; Exp.Dt. 01-SEP-2016}; Regimen #1  cerebral haemorrhage  15-AUG-2016;\n16-Sep-2017 15:00', 'Page 3 of 3\nMfr. Control Number: 16US001685\nADDITIONAL INFORMATION\n14-19. SUSPECT DRUG(S) continued\n15. DAILY DOSE(S); 18. THERAPY DATES (from/to);\n14. SUSPECT DRUG(S) (include generic name) 16. ROUTE(S) OF ADMIN 17. INDICATION(S) FOR USE 19. THERAPY DURATION\n(Cerebral haemorrhage)  Unknown \n#1 ) Rxstudy1 (Code not broken) Capsule {Lot  25 mg, bid; Oral  Rash (Rash) 10-AUG-2016 / \n# 12345; Exp.Dt. 01-SEP-2017}; Regimen #2  cerebral haemorrhage  Ongoing;\n(Cerebral haemorrhage)  Unknown \n16-Sep-2017 15:00']
+apiLogger::2020-03-09 14:22:22,800::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:22:22,800::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:22:22,804::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeArgus-CIOMS
+apiLogger::2020-03-09 14:22:22,804::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:22:22,804::content_type.py::(line:109)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-09 14:22:22,804::content_type.py::(line:115)::find_content_type()::DEBUG : inside: 0
+apiLogger::2020-03-09 14:22:30,599::pvi_api.py::(line:166)::main_function()::DEBUG : ['Argus-CIOMS', 'cioms', 'CIOMS FORM\nSUSPECT ADVERSE REACTION REPORT\nI. REACTION INFORMATION \n1. PATIENT INITIALS 1a. COUNTRY 2. DATE OF BIRTH 2a. AGE 3. SEX 3a. WEIGHT 4-6 REACTION ONSET 8-12 CHECK ALL\n(first, last) UNITED STATES  Day Month Year 3 50.00 Day Month Year APPROPRIATE TO\nPRIVACY PRIVACY Decades Male kg 12 JAN 2016 ADVERSE REACTION\n7 + 13 DESCRIBE REACTION(S) (including relevant tests/lab data)\nEvent Verbatim [PREFERRED TERM] (Related symptoms if any separated by commas) PATIENT DIED\nDeath [Death] Date: 06-SEP-2016\nINVOLVED OR\nCerebral Haemorrhage [Cerebral haemorrhage] PROLONGED INPATIENT\nHOSPITALISATION\nCase Description: This serious report from study report from the United States received on 06-SEP-2016 by \nan investigator describes the occurrence of Cerebral haemorrhage, and Death in a 25 year-old White male  INVOLVED PERSISTENT\nOR SIGNIFICANT\nsubject taking Rxstudy1 as a participant in the following clinical trial protocol: Rx Study 1: Clinical study double  DISABILITY OR\nblinded for drug and vaccine INCAPACITY\nThe past medical history for the subject included: Hypertension, \nLIFE\n (Continued on Additional Information Page)  THREATENING\nII. SUSPECT DRUG(S) INFORMATION \n14. SUSPECT DRUG(S) (include generic name) 20. DID REACTION\n#1 ) Rxstudy1 (Code not broken) Capsule {Lot # 12345; Exp.Dt. 01-SEP-2016} ABATE AFTER STOPPING\nDRUG?\n (Continued on Additional Information Page) \n15. DAILY DOSE(S) 16. ROUTE(S) OF ADMINISTRATION\n#1 ) 50 mg, bid #1 ) Oral YES NO NA\n17. INDICATION(S) FOR USE 21. DID REACTION\n#1 ) Rash (Rash) REAPPEAR AFTER\nREINTRODUCTION?\n (Continued on Additional Information Page) \n18. THERAPY DATES(from/to) 19. THERAPY DURATION\n#1 ) JUL-2016 / 15-AUG-2016 #1 ) Unknown YES NO NA\nIII. CONCOMITANT DRUG(S) AND HISTORY \n22. CONCOMITANT DRUG(S) AND DATES OF ADMINISTRATION (exclude those used to treat reaction)\n23. OTHER RELEVANT HISTORY. (e.g. diagnostics, allergies, pregnancy with last month of period, etc.)\nFrom/To Dates Type of History / Notes Description\n05-AUG-2016 to Ongoing Current Condition Hyperaemia (Hyperaemia) \nThe patient\'s currently suffering from "Hperaemia" \n01-JAN-2014 to 06-MAY-2014 Historical Condition Abdominal pain (Abdominal pain) \nPatient suffered from "Abdominal Pain" in the past \nIV. MANUFACTURER INFORMATION \n24a. NAME AND ADDRESS OF MANUFACTURER 26. REMARKS\nRxlogix Medically Confirmed: Yes\nJames M Potter\nPatient ID: 123EKL90\n500 College Rd East, Suite 203\nStudy ID: Rx Study 1\nPrinceton, New Jersey 08540  UNITED STATES\nPhone: 223 910 1072 Extn: 1 609  Center ID: A-890 \n24b. MFR CONTROL NO. 25b. NAME AND ADDRESS OF REPORTER\nMr Chris F Taylor Y\n16US001685 \nDept: Pathology, Pathlab\nREF: QA-89\n24c. DATE RECEIVED 24d. REPORT SOURCE\n        BY MANUFACTURER STUDY LITERATURE 21/6 Author Road\nTrenton,  New Jersey 1278\n06-SEP-2016 HEALTH OTHER: UNITED STATES \nPROFESSIONAL\nDATE OF THIS REPORT 25a. REPORT TYPE\n16-SEP-2017\nINITIAL FOLLOWUP:\n16-Sep-2017 15:00']
+apiLogger::2020-03-09 14:22:30,599::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 14:22:30,599::structured_code.py::(line:20)::struct_parser()::INFO : Content type is Argus-CIOMS
+apiLogger::2020-03-09 14:22:30,599::structured_code.py::(line:21)::struct_parser()::INFO : Module name is cioms
+apiLogger::2020-03-09 14:22:30,599::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 14:22:30,599::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:23:15,854::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:23:19,760::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:23:19,760::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:23:19,761::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp2fwy57mr 
+apiLogger::2020-03-09 14:23:19,761::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:23:19,761::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:23:19,761::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:23:19,790::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:29:03,905::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:29:09,572::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:29:09,574::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:29:09,574::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpklyauqnu 
+apiLogger::2020-03-09 14:29:09,574::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:29:09,574::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:29:09,574::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:29:09,601::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:29:21,324::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:29:32,735::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:29:32,736::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:29:32,740::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpwghs48h8 
+apiLogger::2020-03-09 14:29:32,740::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:29:32,740::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:29:32,740::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:29:32,762::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:29:34,026::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:29:34,049::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpwghs48h8
+apiLogger::2020-03-09 14:29:34,376::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:29:34,377::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:29:34,377::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:29:34,387::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:29:34,387::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:29:34,387::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:29:34,387::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:29:39,885::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:29:39,885::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:29:39,885::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:29:39,905::unstructured_code.py::(line:141)::unstruct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/unstructured_code.py", line 78, in unstruct_parser
+$    unstructured.Unstructured_Prediction.create_Event_Json_from_Input(def_enum.ocrpath + "/test.txt", def_enum.ocrpath + "/unsoutput.json", py_path)
+$  File "/home/cyrax/pvi-form-engine/unstructured/Unstructured_Prediction.py", line 393, in create_Event_Json_from_Input
+$    config.read("/".join(os.path.realpath(os.path.dirname(os.path.realpath(__file__))).split("/")[:-1])+"/extdata/config/prediction_config.ini")
+$NameError: name 'os' is not defined::::endTrace
+apiLogger::2020-03-09 14:29:39,906::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:30:15,536::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:30:19,868::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:30:19,869::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:30:19,869::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpou6lu0o6 
+apiLogger::2020-03-09 14:30:19,869::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:30:19,869::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:30:19,869::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:30:19,887::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:30:21,083::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:30:21,103::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpou6lu0o6
+apiLogger::2020-03-09 14:30:21,413::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:30:21,413::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:30:21,413::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:30:21,422::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:30:21,423::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:30:21,423::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:30:21,423::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:30:26,611::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:30:26,611::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:30:26,611::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:30:26,618::unstructured_code.py::(line:141)::unstruct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1138, in _unify_values
+$    sectiondict = self._sections[section]
+$KeyError: 'SectionOne'
+$
+$During handling of the above exception, another exception occurred:
+$
+$Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/unstructured_code.py", line 78, in unstruct_parser
+$    unstructured.Unstructured_Prediction.create_Event_Json_from_Input(def_enum.ocrpath + "/test.txt", def_enum.ocrpath + "/unsoutput.json", py_path)
+$  File "/home/cyrax/pvi-form-engine/unstructured/Unstructured_Prediction.py", line 395, in create_Event_Json_from_Input
+$    models = [model_path + "/models/" + ele.strip() for ele in config.get('SectionOne', 'models').split(',')]
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 781, in get
+$    d = self._unify_values(section, vars)
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1141, in _unify_values
+$    raise NoSectionError(section)
+$configparser.NoSectionError: No section: 'SectionOne'::::endTrace
+apiLogger::2020-03-09 14:30:26,618::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:32:56,426::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:32:59,995::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:32:59,996::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:32:59,997::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpx1fzbnd5 
+apiLogger::2020-03-09 14:32:59,997::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:32:59,997::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:32:59,997::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:33:00,017::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:33:01,295::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:33:01,328::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpx1fzbnd5
+apiLogger::2020-03-09 14:33:01,651::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:33:01,651::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:33:01,651::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:33:01,660::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:33:01,660::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:33:01,661::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:33:01,661::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:33:06,955::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:33:06,956::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:33:06,956::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:33:06,959::unstructured_code.py::(line:142)::unstruct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1138, in _unify_values
+$    sectiondict = self._sections[section]
+$KeyError: 'SectionOne'
+$
+$During handling of the above exception, another exception occurred:
+$
+$Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/unstructured_code.py", line 79, in unstruct_parser
+$    unstructured.Unstructured_Prediction.create_Event_Json_from_Input(def_enum.ocrpath + "/test.txt", def_enum.ocrpath + "/unsoutput.json", py_path)
+$  File "/home/cyrax/pvi-form-engine/unstructured/Unstructured_Prediction.py", line 395, in create_Event_Json_from_Input
+$    models = [model_path + "/models/" + ele.strip() for ele in config.get('SectionOne', 'models').split(',')]
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 781, in get
+$    d = self._unify_values(section, vars)
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1141, in _unify_values
+$    raise NoSectionError(section)
+$configparser.NoSectionError: No section: 'SectionOne'::::endTrace
+apiLogger::2020-03-09 14:33:06,959::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:34:02,656::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:34:06,945::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:34:06,946::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:34:06,946::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpx7kqzi3g 
+apiLogger::2020-03-09 14:34:06,946::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:34:06,947::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:34:06,947::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:34:06,962::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:34:08,384::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:34:08,406::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpx7kqzi3g
+apiLogger::2020-03-09 14:34:08,714::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:34:08,714::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:34:08,714::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:34:08,723::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:34:08,723::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:34:08,723::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:34:08,723::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:34:14,028::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:34:14,028::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:34:14,028::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:34:14,032::unstructured_code.py::(line:142)::unstruct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1138, in _unify_values
+$    sectiondict = self._sections[section]
+$KeyError: 'SectionOne'
+$
+$During handling of the above exception, another exception occurred:
+$
+$Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/unstructured_code.py", line 79, in unstruct_parser
+$    unstructured.Unstructured_Prediction.create_Event_Json_from_Input(def_enum.ocrpath + "/test.txt", def_enum.ocrpath + "/unsoutput.json", py_path)
+$  File "/home/cyrax/pvi-form-engine/unstructured/Unstructured_Prediction.py", line 395, in create_Event_Json_from_Input
+$    models = [model_path + "/models/" + ele.strip() for ele in config.get('SectionOne', 'models').split(',')]
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 781, in get
+$    d = self._unify_values(section, vars)
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1141, in _unify_values
+$    raise NoSectionError(section)
+$configparser.NoSectionError: No section: 'SectionOne'::::endTrace
+apiLogger::2020-03-09 14:34:14,032::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:35:32,864::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:35:33,463::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:35:39,207::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:35:39,209::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:35:39,210::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp8bilp2hk 
+apiLogger::2020-03-09 14:35:39,210::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:35:39,210::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:35:39,210::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:35:39,228::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:35:40,080::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 14:35:40,082::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 14:35:40,083::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 14:35:40,083::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:35:56,421::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:36:01,619::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:36:05,163::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:36:05,164::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:36:05,164::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp_l83cfoq 
+apiLogger::2020-03-09 14:36:05,164::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:36:05,164::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:36:05,164::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:36:05,182::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:36:06,501::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:36:06,522::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmp_l83cfoq
+apiLogger::2020-03-09 14:36:06,851::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:36:06,851::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:36:06,851::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:36:06,861::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:36:06,861::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:36:06,861::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:36:06,861::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:36:12,123::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:36:12,123::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:36:12,123::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:36:12,128::unstructured_code.py::(line:142)::unstruct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1138, in _unify_values
+$    sectiondict = self._sections[section]
+$KeyError: 'SectionOne'
+$
+$During handling of the above exception, another exception occurred:
+$
+$Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/unstructured_code.py", line 79, in unstruct_parser
+$    unstructured.Unstructured_Prediction.create_Event_Json_from_Input(def_enum.ocrpath + "/test.txt", def_enum.ocrpath + "/unsoutput.json", py_path)
+$  File "/home/cyrax/pvi-form-engine/unstructured/Unstructured_Prediction.py", line 395, in create_Event_Json_from_Input
+$    models = [model_path + "/models/" + ele.strip() for ele in config.get('SectionOne', 'models').split(',')]
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 781, in get
+$    d = self._unify_values(section, vars)
+$  File "/home/cyrax/anaconda3/lib/python3.6/configparser.py", line 1141, in _unify_values
+$    raise NoSectionError(section)
+$configparser.NoSectionError: No section: 'SectionOne'::::endTrace
+apiLogger::2020-03-09 14:36:12,128::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:37:22,059::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:37:25,746::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:37:25,748::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:37:25,748::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpmdgrl54q 
+apiLogger::2020-03-09 14:37:25,749::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:37:25,749::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:37:25,749::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-09 14:37:25,776::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-09 14:37:27,234::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-09 14:37:27,255::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpmdgrl54q
+apiLogger::2020-03-09 14:37:27,578::content_type.py::(line:97)::find_content_type()::DEBUG : ['This report is about a male patient of age 51 years.\nAround Feb2010, the patient started to have symptomatic ventricular\nfibrillation and initiated with oral Bepricor therapy for persistent ventricular\nfibrillation.Dosage forBepricor is2.5 milligram (mg)and frequencyis daily\n(qd). The patient was hospitalized for treatment of ventricular fibrillation.\nOn 21feb2012, the patient developed transient loss of consciousness in his\nroom, and an ambulance was called.\nOn arrival of emergency personnel, his consciousness was clear and\ncirculation and breathing were stable.\nHowever, after the patient was taken into the ambulance, ventricular\nfibrillation occurred.\nThe weight of the patient was 56 kg.\nThis case is reported in United States.\nThanks and regards']
+apiLogger::2020-03-09 14:37:27,579::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-09 14:37:27,579::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-09 14:37:27,588::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-09 14:37:27,588::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-09 14:37:27,588::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-09 14:37:27,588::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-09 14:37:32,925::content_type.py::(line:165)::find_content_type()::INFO : discovered content type UNKNOWN
+apiLogger::2020-03-09 14:37:32,925::pvi_api.py::(line:166)::main_function()::DEBUG : ['UNKNOWN', 'UNKNOWN', 'This  report  is  about  a  male  patient  of  age  51  years. \nAround  Feb2010,  the  patient  started  to  have  symptomatic  ventricular \nfibrillation  and  initiated  with  oral  Bepricor  therapy  for  persistent  ventricular \nfibrillation.  Dosage  for  Bepricor  is  2.5  milligram  (mg)  and  frequency  is  daily \n(qd).  The  patient  was  hospitalized  for  treatment  of  ventricular  fibrillation. \nOn  21feb2012,  the  patient  developed  transient  loss  of  consciousness  in  his \nroom,  and  an  ambulance  was  called. \nOn  arrival  of  emergency  personnel,  his  consciousness  was  clear  and \ncirculation  and  breathing  were  stable. \nHowever,  after  the  patient  was  taken  into  the  ambulance,  ventricular \nfibrillation  occurred. \nThe  weight  of  the  patient  was  56  kg. \nThis  case  is  reported  in  United  States. \nThanks  and  regards']
+apiLogger::2020-03-09 14:37:32,925::unstructured_code.py::(line:25)::unstruct_parser()::INFO : unstructured parsing in progress
+apiLogger::2020-03-09 14:38:01,111::unstructured_code.py::(line:85)::unstruct_parser()::DEBUG : x from JSON
+apiLogger::2020-03-09 14:38:01,111::unstructured_code.py::(line:86)::unstruct_parser()::DEBUG : {'reporters': [{'country': 'United States', 'country_acc': '0.94', 'qualification': '', 'qualification_acc': '1.00'}], 'patient': {'gender': 'male', 'gender_acc': '0.89', 'age': {'inputValue': '', 'inputValue_acc': 'N/A', 'ageType': 'PATIENT_ON_SET_AGE'}, 'weight': '56', 'weight_acc': '0.89', 'weightUnit': 'kg', 'weightUnit_acc': '1.00', 'height': '', 'height_acc': 'N/A', 'heightUnit': '', 'heightUnit_acc': 'N/A'}, 'events': [{'reportedReaction': 'ventricular fibrillation', 'reportedReaction_acc': '0.89', 'reactionCoded': 'ventricular fibrillation', 'startDate': None, 'startDate_acc': 'N/A'}, {'reportedReaction': 'frequency', 'reportedReaction_acc': '0.89', 'reactionCoded': 'frequency', 'startDate': None, 'startDate_acc': 'N/A'}, {'reportedReaction': 'hospitalized', 'reportedReaction_acc': '0.9', 'reactionCoded': 'hospitalized', 'startDate': None, 'startDate_acc': 'N/A'}, {'reportedReaction': 'transient loss of consciousness', 'reportedReaction_acc': '0.89', 'reactionCoded': 'transient loss of consciousness', 'startDate': None, 'startDate_acc': 'N/A'}], 'products': [{'license_value': 'Bepricor', 'license_value_acc': '0.84', 'doseInformations': [{'dose_inputValue': '', 'dose_inputValue_acc': 'N/A', 'frequency_value': 'qd', 'frequency_value_acc': '0.83', 'route_value': 'oral', 'route_value_acc': '0.83'}]}], 'study': {'studynum': '', 'studynum_acc': '1.00', 'studytype': '', 'studytype_acc': '1.00'}, 'tests': [], 'seriousnesses': []}
+apiLogger::2020-03-09 14:38:01,112::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 14:50:13,066::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:50:13,668::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 14:50:24,867::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 14:50:24,869::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 14:50:24,869::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp0gghnt_9 
+apiLogger::2020-03-09 14:50:24,870::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 14:50:24,870::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 14:50:25,686::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 14:50:25,689::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 14:50:25,689::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 14:50:25,689::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:01:41,665::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:01:42,266::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:01:46,048::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:01:46,051::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:01:46,051::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp281ol7fo 
+apiLogger::2020-03-09 15:01:46,052::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:01:46,052::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:01:46,915::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:01:46,917::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:01:46,918::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:01:46,918::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:03:18,884::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:03:19,494::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:03:24,218::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:03:24,221::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:03:24,221::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpeb6wlk2k 
+apiLogger::2020-03-09 15:03:24,222::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:03:24,223::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:03:25,037::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:03:25,039::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:03:25,039::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:03:25,039::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:03:51,150::run_pvi_api.py::(line:29)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:04:26,266::run_pvi_api.py::(line:30)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:05:01,715::run_pvi_api.py::(line:19)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:05:01,718::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:05:01,718::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpm6wysc9u 
+apiLogger::2020-03-09 15:05:01,719::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:05:01,719::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:05:02,527::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:05:02,528::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:05:02,528::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:05:02,528::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:06:51,717::run_pvi_api.py::(line:30)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:07:53,961::run_pvi_api.py::(line:30)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:14:00,012::run_pvi_api.py::(line:32)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:14:00,796::run_pvi_api.py::(line:32)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:24:23,517::run_pvi_api.py::(line:33)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:24:24,298::run_pvi_api.py::(line:33)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:25:55,169::run_pvi_api.py::(line:32)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:26:19,243::run_pvi_api.py::(line:33)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:26:20,019::run_pvi_api.py::(line:33)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:27:36,048::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:27:36,660::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:27:40,247::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:27:40,249::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:27:40,250::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpoi2z6wxs 
+apiLogger::2020-03-09 15:27:40,250::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:27:40,250::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:27:41,072::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:27:41,073::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:27:41,073::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:27:41,074::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:28:07,422::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:28:16,288::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:28:16,292::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:28:16,292::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp5n8k5ict 
+apiLogger::2020-03-09 15:28:16,293::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:28:16,293::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:28:17,057::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:28:17,059::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:28:17,059::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:28:17,059::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:28:21,853::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:28:22,466::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:28:28,152::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:28:28,154::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:28:28,154::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpgj62s7zd 
+apiLogger::2020-03-09 15:28:28,155::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:28:28,155::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:28:28,919::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-09 15:28:28,920::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-09 15:28:28,920::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-09 15:28:28,921::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-09 15:28:42,140::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:28:46,179::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:28:46,181::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:28:46,182::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmppqylqx9g 
+apiLogger::2020-03-09 15:28:46,182::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:28:46,182::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:29:01,486::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-09 15:29:05,109::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-09 15:29:05,110::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-09 15:29:05,110::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpgl8n8gfj 
+apiLogger::2020-03-09 15:29:05,110::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-09 15:29:05,110::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-09 15:29:06,356::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-09 15:29:06,370::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-09 15:29:06,380::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-09 15:29:06,380::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-09 15:29:06,380::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-09 15:29:06,380::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-09 15:29:06,380::structured_code.py::(line:16)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-09 15:29:06,380::structured_code.py::(line:20)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-09 15:29:06,380::structured_code.py::(line:21)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-09 15:29:06,380::structured_code.py::(line:22)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-09 15:29:14,434::structured_code.py::(line:78)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-09 15:29:14,434::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-11 16:39:00,962::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-11 16:39:01,618::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-11 16:39:09,660::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-11 16:39:09,662::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-11 16:39:09,662::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpinikgelz 
+apiLogger::2020-03-11 16:39:09,663::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-11 16:39:09,663::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-11 16:39:10,779::content_type.py::(line:203)::find_content_type()::ERROR : signal only works in main thread
+apiLogger::2020-03-11 16:39:10,780::content_type.py::(line:204)::find_content_type()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/content_type.py", line 75, in find_content_type
+$    spec.loader.exec_module(py_comm_comp)
+$  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+$  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 6, in <module>
+$    from py_comm_comp import deskew_tiff_convert
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/__init__.py", line 23, in <module>
+$    from py_comm_comp import new_spam_detect
+$  File "/home/cyrax/pvi-form-engine/py_comm_comp/new_spam_detect.py", line 6, in <module>
+$    from pyfasttext import FastText
+$  File "src/pyfasttext.pyx", line 1, in init pyfasttext
+$  File "/home/cyrax/anaconda3/lib/python3.6/site-packages/cysignals/__init__.py", line 3, in <module>
+$    init_cysignals()
+$  File "src/cysignals/signals.pyx", line 251, in cysignals.signals.init_cysignals
+$  File "/home/cyrax/anaconda3/lib/python3.6/signal.py", line 47, in signal
+$    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+$ValueError: signal only works in main thread::::endTrace
+apiLogger::2020-03-11 16:39:10,781::pvi_api.py::(line:166)::main_function()::DEBUG : {'code': 1, 'message': 'not a valid file type. only pdf supported'}
+apiLogger::2020-03-11 16:39:10,781::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-11 16:39:34,732::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-11 16:39:38,113::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-11 16:39:42,391::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-11 16:39:42,392::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-11 16:39:42,392::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp4tf7jtwh 
+apiLogger::2020-03-11 16:39:42,392::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-11 16:39:42,392::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-11 16:40:07,005::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-11 16:40:11,662::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-11 16:40:11,664::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-11 16:40:11,664::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp5i162r47 
+apiLogger::2020-03-11 16:40:11,665::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-11 16:40:11,665::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 

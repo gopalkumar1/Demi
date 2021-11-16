@@ -1,0 +1,7 @@
+content_type|identification_strings|module_name
+"RGN_CIOMS_1"|"25b. NAME AND ADDRESS OF REPORTER","26. REMARKS"|"generic"
+"RGN_CIOMS_2"|"Continuation attached sheet","24d. REPORT SOURCE"|"generic"
+"CALL_CENTER"|"Patient Support Programs", "Market Research Study"|"generic"
+"RGN_1788"|"Regeneron Pharmaceuticals", "Project Details", "Demography Details", "ICON Study Code"|"generic"
+"RGN_16113"|"16113"|"generic"
+"REGN_1625"|"R1979-ONC-1625", "REGN1979"|"generic"

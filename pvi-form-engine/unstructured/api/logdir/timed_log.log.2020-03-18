@@ -1,0 +1,847 @@
+apiLogger::2020-03-16 13:32:57,861::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 13:33:41,353::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 13:33:41,356::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 13:33:41,359::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpax073cbm 
+apiLogger::2020-03-16 13:33:41,359::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 13:33:41,359::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 13:33:41,359::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 13:33:41,451::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 13:33:59,164::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 13:34:02,014::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 13:34:02,019::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 13:34:02,020::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp2i85insw 
+apiLogger::2020-03-16 13:34:02,020::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 13:34:02,020::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 13:34:02,020::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 13:34:02,130::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 13:34:03,492::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 13:34:03,609::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmp2i85insw
+apiLogger::2020-03-16 13:34:04,515::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 13:34:04,515::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 13:34:04,515::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 13:34:04,535::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,535::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 13:34:04,535::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 13:34:04,535::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 13:34:04,540::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,540::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 13:34:04,540::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 13:34:04,541::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 13:34:04,543::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,543::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 13:34:04,543::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 13:34:04,543::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 13:34:04,544::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,545::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 13:34:04,545::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 13:34:04,545::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 13:34:04,549::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,549::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 13:34:04,549::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 13:34:04,549::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 13:34:04,554::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:34:04,554::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 13:34:04,554::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 13:34:04,554::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 13:34:27,616::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 13:34:27,617::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 13:34:27,617::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 13:34:27,617::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 13:34:27,617::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 13:34:27,617::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 13:34:27,617::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 13:34:46,647::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 13:34:46,647::structured_code.py::(line:86)::struct_parser()::INFO : parseFromModule missing in the nsc package
+apiLogger::2020-03-16 13:34:46,647::structured_code.py::(line:87)::struct_parser()::ERROR : 'eventsList'
+apiLogger::2020-03-16 13:34:46,648::structured_code.py::(line:88)::struct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/structured_code.py", line 84, in struct_parser
+$    x = postProcessGeneric(x)
+$  File "/home/cyrax/pvi-form-engine/api/postProcessGeneric.py", line 2, in postProcessGeneric
+$    for each in outputJSON["eventsList"]:
+$KeyError: 'eventsList'::::endTrace
+apiLogger::2020-03-16 13:34:46,648::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 13:35:17,638::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 13:35:23,339::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 13:35:25,463::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 13:35:25,466::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 13:35:25,467::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpmhxuszd1 
+apiLogger::2020-03-16 13:35:25,467::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 13:35:25,467::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 13:35:25,467::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 13:35:25,559::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 13:35:26,999::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 13:35:27,107::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpmhxuszd1
+apiLogger::2020-03-16 13:35:28,021::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 13:35:28,021::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 13:35:28,021::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 13:35:28,030::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,030::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 13:35:28,030::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 13:35:28,030::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 13:35:28,036::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,036::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 13:35:28,036::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 13:35:28,036::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 13:35:28,038::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,039::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 13:35:28,039::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 13:35:28,039::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 13:35:28,041::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,041::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 13:35:28,041::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 13:35:28,041::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 13:35:28,045::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,045::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 13:35:28,045::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 13:35:28,045::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 13:35:28,049::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:35:28,049::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 13:35:28,049::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 13:35:28,049::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 13:35:50,596::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 13:35:50,597::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 13:35:50,597::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 13:35:50,597::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 13:35:50,597::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 13:35:50,597::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 13:35:50,597::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 13:36:10,261::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 13:36:10,261::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 13:36:35,513::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 13:36:44,229::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 13:36:44,232::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 13:36:44,235::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpev_5o4ne 
+apiLogger::2020-03-16 13:36:44,236::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 13:36:44,236::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 13:36:44,236::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 13:36:44,323::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 13:36:45,683::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 13:36:45,790::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpev_5o4ne
+apiLogger::2020-03-16 13:36:46,855::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 13:36:46,855::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 13:36:46,855::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 13:36:46,868::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,868::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 13:36:46,868::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 13:36:46,868::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 13:36:46,877::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,878::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 13:36:46,878::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 13:36:46,878::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 13:36:46,881::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,881::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 13:36:46,882::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 13:36:46,882::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 13:36:46,884::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,885::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 13:36:46,885::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 13:36:46,885::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 13:36:46,892::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,892::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 13:36:46,892::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 13:36:46,892::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 13:36:46,898::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 13:36:46,899::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 13:36:46,899::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 13:36:46,899::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 13:37:09,543::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 13:37:09,543::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 13:37:09,543::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 13:37:09,543::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 13:37:09,543::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 13:37:09,543::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 13:37:09,543::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 13:37:28,181::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 13:37:28,181::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:05:33,474::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:05:36,387::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:05:36,390::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:05:36,391::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp_ci4yjxa 
+apiLogger::2020-03-16 14:05:36,391::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:05:36,391::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:05:36,391::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 14:05:36,486::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 14:05:37,946::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 14:05:38,062::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmp_ci4yjxa
+apiLogger::2020-03-16 14:05:39,108::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 14:05:39,109::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 14:05:39,109::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 14:05:39,120::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,120::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 14:05:39,120::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 14:05:39,120::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 14:05:39,126::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,126::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 14:05:39,126::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 14:05:39,126::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 14:05:39,129::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,129::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 14:05:39,129::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 14:05:39,129::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 14:05:39,132::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,132::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 14:05:39,132::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 14:05:39,132::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 14:05:39,137::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,137::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 14:05:39,137::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 14:05:39,137::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 14:05:39,141::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:05:39,141::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 14:05:39,141::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 14:05:39,142::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 14:06:02,335::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 14:06:02,335::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 14:06:02,335::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 14:06:02,335::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:06:02,336::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 14:06:02,336::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 14:06:02,336::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:06:21,833::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 14:06:21,853::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:09:09,369::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:09:11,719::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:09:11,723::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:09:11,727::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpe0c8bwm0 
+apiLogger::2020-03-16 14:09:11,727::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:09:11,727::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:09:11,727::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 14:09:11,813::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 14:09:13,247::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 14:09:13,351::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpe0c8bwm0
+apiLogger::2020-03-16 14:09:14,250::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 14:09:14,251::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 14:09:14,251::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 14:09:14,261::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,261::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 14:09:14,261::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 14:09:14,261::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 14:09:14,266::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,266::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 14:09:14,266::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 14:09:14,266::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 14:09:14,269::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,269::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 14:09:14,269::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 14:09:14,269::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 14:09:14,271::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,271::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 14:09:14,271::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 14:09:14,271::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 14:09:14,275::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,275::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 14:09:14,275::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 14:09:14,275::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 14:09:14,279::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:09:14,279::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 14:09:14,279::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 14:09:14,279::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 14:09:37,474::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 14:09:37,474::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 14:09:37,475::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 14:09:37,475::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:09:37,475::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 14:09:37,475::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 14:09:37,475::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:09:56,611::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 14:09:56,613::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:11:18,653::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:11:25,773::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:11:25,778::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:11:25,779::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp3qb5kcpt 
+apiLogger::2020-03-16 14:11:25,779::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:11:25,779::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:11:25,779::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 14:11:25,882::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 14:11:27,284::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 14:11:27,389::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmp3qb5kcpt
+apiLogger::2020-03-16 14:11:28,272::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 14:11:28,272::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 14:11:28,272::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 14:11:28,281::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,281::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 14:11:28,281::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 14:11:28,281::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 14:11:28,286::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,286::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 14:11:28,286::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 14:11:28,286::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 14:11:28,288::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,288::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 14:11:28,288::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 14:11:28,288::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 14:11:28,290::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,290::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 14:11:28,290::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 14:11:28,290::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 14:11:28,294::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,294::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 14:11:28,294::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 14:11:28,294::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 14:11:28,299::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:11:28,299::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 14:11:28,299::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 14:11:28,299::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 14:11:51,595::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 14:11:51,596::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 14:11:51,596::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 14:11:51,596::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:11:51,596::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 14:11:51,596::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 14:11:51,596::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:12:10,714::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 14:12:10,737::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:13:33,960::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:13:39,367::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:13:41,804::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:13:41,808::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:13:41,808::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpuq2ouqa9 
+apiLogger::2020-03-16 14:13:41,809::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:13:41,809::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:13:41,809::password_code.py::(line:37)::if_passwd_works()::DEBUG : inside if_passwd_works: 
+apiLogger::2020-03-16 14:13:41,918::pvi_api.py::(line:136)::main_function()::DEBUG : {'code': None, 'message': None}
+apiLogger::2020-03-16 14:13:43,369::content_type.py::(line:91)::find_content_type()::DEBUG : inside content type try catch
+apiLogger::2020-03-16 14:13:43,476::content_type.py::(line:94)::find_content_type()::DEBUG : checking in content type .py   /tmp/tmpuq2ouqa9
+apiLogger::2020-03-16 14:13:44,375::content_type.py::(line:97)::find_content_type()::DEBUG : ['FromU:S 3Cserviucde@cmleorck.com \nSetn: FridayO,c tob8e,r2  0171 1:51 PM \nTo: MNSCC ornerstone CommuPnRiDMc OaOtNi-SoU nS;C CM ailboGxP;V O \nAutomatmiaoinl box \nSubject:N SCA dverEsxep eriefnocre  02119557-K-E YPTLREUADSDAEO   \nNOT REPLY. \nAttachments:N SCC onsumReerq uetsotC  ontaHcCtP f orR equest \n#01006556.pdf \nPLEASDEO N OTR EPLTYO T HISM ESSAGE \nINTERNUASLE O NLY \nADVERSEEX PERIERNECPEO RT: \nLastModifiedDa1t0e/:0 8/21031:72 9:10 \nCreatedDa1t0e/:0 7/21051:70 3:09 \nInteractnuimobne r0:1 00201\nCasNeumber0:1 00200\nCaseO wnerV:e ronica Pico \nPatieNnatm e/InitiaAlnso/noB:re  tsy Ford \nPatieDnatt eo fB irthRe:f usetdo A nswer \nPatieAngte :5 8\nPatieGnetn derF:e male \nPatientWe\'isg ht/HeiNgAh/tN:A  \nIsP atiePnrte gnantN?o:tA  pplicable \nPregnacnyG estatioonr L MP:N A \nPhysiciNaanm e: Washington Lincoln\nPermisstiooC no ntactU?n:s pecified \nPrimaCroyn tactB:e tsy  Ford \nCompaAnyw areneDsast e:1 0/07/2 017\nProduNcatm e:K EYTRUDA  INJ \nIndicatio"Enn:d ometriCaaln cerTh"e rapy \nStar Dtate":F ebrua2r0y1 5" \nDose/Freque2n0c0ym:g /e v3e wreyeks ', 'Routoef A dministration:  Intravenous \nProduLcott #/EDxapt eR:e fusteodA  nswer/Reftuos ed \nAnswer \nProduCcitr cul#a:rN A \nConcomitMaendti catiRoenf:u steodA  nswer \nPertineMnetd ical History:t oA Rnesfwuesre d \nDrugR eactions/AlleRregfiuesste:odA   nswer \nAE DescriptiTohne:p  rimarrye portiesrt  hec onsurm,e \nwhoi sa lsot hep atient. \nTh epatiernetp ortedt hato na nu nspecifiedda tea,t  an unspecified \nlocatihoand a nu nspecified \n"surgery"w hiloen K EYRTUDAd uet o" the canecrm etasitzades to the \ncerbeellumn"o; c larifying \ninformatpiroovni dedT.he  patienrtep ortetdh ato na  lateurn specified \ndate,s he had anu nspceified \n"surgerayt"a n  unsepcifi leodcatiodnu et ot he" cancemre tastasinezaerd  \nthe braisnt me";n o clarifying \ninofrmationT.h ep atietn reporttehda to n0 8/20/20s1h7e,h  ad a \n"lesion rde fmroomv epelvica rea";no  \nclarifyiinngof rmatiporno videTdh.e p atiernetp orttehda to na n \nunspecifdiateeds ,d evelop"evde ry \ndark bloodsyt ooaln  dfatigueT.h"ep  aitentr eporttehda to na n \nunspecifidaetde ,h ad "labsc hecked" \nandt he resultss howeadn eminao; c larifyinign formatpiroonv idedT.h e \npatient reportedt hato n \nunspecifdiaetde ss,h ee xperiencse "extrefmatei gu eandi sa nemicn"o;  \nclarifyiinngof rmatiporno vided. \nThe patiernetp orttehda  ton 10/07/20s1h7 eh ada  colonoscaonpdy  \nendoscoapnydt  hew as toldb yt he \nphysician" there was nor easofonr t he blood ystools"no; c larifying \ninformatiporno videdT.h ec all \ndisconnecbetfeodr ael l adevrsee vnet qusetioncso udl be asked,t herefore \nno clarifyin ginofrmation \nproivde dands ome fieldwsi llb em arkeads,  RefusteodA  nswer.N o \nfurtherd etaiplrso vided. \nWasT reatmegnitv efno rA E?:  ReftuosA ends wer \nAEO nseDta teS:e eA ED escription \nLabD iagnostics/SPteurdfioersm "ehde:m ogloabnidnR  BCs" \nWasT heraDpiys continuNeod ?: \nTheraEpyn dD ate:N A \nDechallenNgAe : ', None, None, 'OtheIrR RED etailNso:t A pplicable \nPSPD etails \nPSPP rogrNaamm e:N otA pplicable \nPSPP rograNma me- OtherN:o tA pplicable \nPSPC ompanyN:o tA pplicable \nPSPC ompa-nyO therN:o tA pplicable \nPSPN umberN:o tA pplicable \nPSPN umbe-rO therN:o tA pplicable \nNameo ft heA gentN:o tA pplicable \nCONTADCETT AI:L S \nNameB:e tsyr dF o\nType: Consumer \nCredentials: \nAddres5s :lB u9e Spring Dr. \nChamblCy , Q\nFax: \nPhone:  \nPRODUDCETT AI:L S \nProducNta meK:E YTRUIDNAJ  \nDose/Frequency:  230 0wmege/kesv ery \nExpiratDiaotne R:e fusetdoA  nswer \nLotN umberR:e fusetdoA  nswer \nProducCti rcul#a:rN A \nNOTED ETAI:L S \nNoteH:C  Clettemra iled \nCreatedDa0t8e-:O CT-17 \nNoteM:a ilT eam:P leasmea i loutc onsumfeolrl owu p \nletter. \nCreatedDa0t7-eO:C T-17 ', "NoteB:e tsFyo r dhase ndometrailc ancerh,a se ebn \ntakinKgE YTRUDA \nfory earhso wevsehre h asr eecntlyh a dbloodys tooaln df eelinfga tiuge. \nSheh ada  colonoscaonpdEy n doscotpoyd aayn dt estd idn'ts howw hy she \nis havibnlgo odsyt ool. \nCreatedDat0e7:-T O-C1 7"]
+apiLogger::2020-03-16 14:13:44,375::content_type.py::(line:100)::find_content_type()::DEBUG : after finding digital text
+apiLogger::2020-03-16 14:13:44,375::content_type.py::(line:104)::find_content_type()::DEBUG : i is 0
+apiLogger::2020-03-16 14:13:44,384::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,384::content_type.py::(line:107)::find_content_type()::DEBUG : main: 0
+apiLogger::2020-03-16 14:13:44,384::content_type.py::(line:140)::find_content_type()::DEBUG : outside:1
+apiLogger::2020-03-16 14:13:44,384::content_type.py::(line:104)::find_content_type()::DEBUG : i is 1
+apiLogger::2020-03-16 14:13:44,390::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,390::content_type.py::(line:107)::find_content_type()::DEBUG : main: 1
+apiLogger::2020-03-16 14:13:44,390::content_type.py::(line:140)::find_content_type()::DEBUG : outside:2
+apiLogger::2020-03-16 14:13:44,390::content_type.py::(line:104)::find_content_type()::DEBUG : i is 2
+apiLogger::2020-03-16 14:13:44,392::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,392::content_type.py::(line:107)::find_content_type()::DEBUG : main: 2
+apiLogger::2020-03-16 14:13:44,392::content_type.py::(line:140)::find_content_type()::DEBUG : outside:3
+apiLogger::2020-03-16 14:13:44,392::content_type.py::(line:104)::find_content_type()::DEBUG : i is 3
+apiLogger::2020-03-16 14:13:44,393::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,393::content_type.py::(line:107)::find_content_type()::DEBUG : main: 3
+apiLogger::2020-03-16 14:13:44,393::content_type.py::(line:140)::find_content_type()::DEBUG : outside:4
+apiLogger::2020-03-16 14:13:44,394::content_type.py::(line:104)::find_content_type()::DEBUG : i is 4
+apiLogger::2020-03-16 14:13:44,398::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,398::content_type.py::(line:107)::find_content_type()::DEBUG : main: 4
+apiLogger::2020-03-16 14:13:44,398::content_type.py::(line:140)::find_content_type()::DEBUG : outside:5
+apiLogger::2020-03-16 14:13:44,398::content_type.py::(line:104)::find_content_type()::DEBUG : i is 5
+apiLogger::2020-03-16 14:13:44,402::content_type.py::(line:106)::find_content_type()::INFO : discovered content typeUNKNOWN
+apiLogger::2020-03-16 14:13:44,402::content_type.py::(line:107)::find_content_type()::DEBUG : main: 5
+apiLogger::2020-03-16 14:13:44,402::content_type.py::(line:140)::find_content_type()::DEBUG : outside:6
+apiLogger::2020-03-16 14:13:44,402::content_type.py::(line:149)::find_content_type()::DEBUG : deskew and hocr generator for unknown content type
+apiLogger::2020-03-16 14:14:07,671::content_type.py::(line:165)::find_content_type()::INFO : discovered content type NSC
+apiLogger::2020-03-16 14:14:07,671::content_type.py::(line:172)::find_content_type()::INFO : OCR_text_content_type: NSC
+apiLogger::2020-03-16 14:14:07,671::pvi_api.py::(line:166)::main_function()::DEBUG : ['NSC', 'nsc', 'From:  US3Cservicecloud@merck.com \nSent:  Friday,  October  8,  2017  11:15  PM \nTo:  MNSC  Cornerstone  Communication;  PRD  MOONS  -  USCC  Mailbox;  GPVO \nAutomation  mailbox \nSubject:  NSC  Adverse  Experience  for  02119557-KEYTRUDA  -  PLEASE  DO \nNOT  REPLY. \nAttachments:  NSC  Consumer  Request  to  Contact  HCP  for  Request \n#01006556.pdf \nPLEASE  DO  NOT  REPLY  TO  THIS  MESSAGE \nINTERNAL  USE  ONLY \nADVERSE  EXPERIENCE  REPORT: \nLastModifiedDate:  10/08/2017  13:29:10 \nCreatedDate:  10/07/2017  15:03:09 \nInteraction  number:  0100201 \nCaseNumber:  0100200 \nCase  Owner:  Veronica  Pico \nPatient  Name/Initials/or  Anon:  Betsy  Ford \nPatient  Date  of  Birth:  Refused  to  Answer \nPatient  Age:  58 \nPatient  Gender:  Female \nPatient\'s  Weight/Height:  NA/NA \nIs  Patient  Pregnant?:  Not  Applicable \nPregnancy  Gestation  or  LMP:  NA \nPhysician  Name:  Washington  Lincoln \nPermission  to  Contact?:  Unspecified \nPrimary  Contact:  Betsy  Ford \nCompany  Awareness  Date:  10/07/2017 \nProduct  Name:  KEYTRUDA  INJ \nIndication:  “Endometrial  Cancer"  Therapy \nStart  Date:  "February  2015" \nDose/Frequency:  200mg/every  3  weeks']
+apiLogger::2020-03-16 14:14:07,671::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:14:07,671::structured_code.py::(line:21)::struct_parser()::INFO : Content type is NSC
+apiLogger::2020-03-16 14:14:07,671::structured_code.py::(line:22)::struct_parser()::INFO : Module name is nsc
+apiLogger::2020-03-16 14:14:07,671::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:14:27,147::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in nsc
+apiLogger::2020-03-16 14:14:27,149::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:18:47,426::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:18:53,972::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:18:53,973::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:18:53,974::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpki90pnpv 
+apiLogger::2020-03-16 14:18:53,974::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:18:53,974::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:18:55,388::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:18:55,409::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:18:55,421::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:18:55,421::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:18:55,421::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:18:55,421::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:18:55,421::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:18:55,421::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:18:55,421::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:18:55,421::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:19:03,729::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:19:03,833::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:24:51,524::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:25:02,343::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:25:05,229::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:25:05,231::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:25:05,231::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpnp9qykjz 
+apiLogger::2020-03-16 14:25:05,231::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:25:05,231::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:25:06,571::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:25:06,586::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:25:06,598::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:25:06,598::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:25:06,598::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:25:06,598::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:25:06,598::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:25:06,598::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:25:06,598::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:25:06,598::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:25:14,818::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:25:18,562::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:26:02,858::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:26:09,087::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:26:11,186::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:26:11,187::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:26:11,187::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpaja7r4dl 
+apiLogger::2020-03-16 14:26:11,188::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:26:11,188::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:26:12,516::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:26:12,532::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:26:12,545::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:26:12,545::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:26:12,545::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:26:12,545::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:26:12,545::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:26:12,546::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:26:12,546::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:26:12,546::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:26:20,730::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:26:20,738::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:27:04,647::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:27:07,219::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:27:07,221::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:27:07,221::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpw3t7h9c1 
+apiLogger::2020-03-16 14:27:07,222::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:27:07,222::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:27:08,577::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:27:08,592::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:27:08,604::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:27:08,604::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:27:08,604::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:27:08,604::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:27:08,604::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:27:08,604::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:27:08,605::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:27:08,605::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:27:17,039::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:27:17,049::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:28:22,490::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:28:24,358::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:28:24,359::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:28:24,359::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp5welkrop 
+apiLogger::2020-03-16 14:28:24,360::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:28:24,360::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:28:25,845::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:28:25,862::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:28:25,880::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:28:25,880::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:28:25,880::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:28:25,880::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:28:25,880::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:28:25,880::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:28:25,880::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:28:25,880::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:28:35,013::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:28:35,023::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:29:45,113::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:29:46,868::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:29:46,870::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:29:46,870::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpvr5e9mj4 
+apiLogger::2020-03-16 14:29:46,871::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:29:46,871::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:29:48,335::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:29:48,351::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:29:48,364::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:29:48,364::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:29:48,364::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:29:48,364::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:29:48,364::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:29:48,365::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:29:48,365::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:29:48,365::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:29:56,652::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:29:56,671::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:31:27,240::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:31:32,314::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:31:35,145::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:31:35,146::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:31:35,146::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpf9fxows8 
+apiLogger::2020-03-16 14:31:35,147::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:31:35,147::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:31:36,624::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:31:36,640::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:31:36,653::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:31:36,653::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:31:36,653::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:31:36,653::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:31:36,653::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:31:36,653::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:31:36,653::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:31:36,654::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:31:44,921::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:31:44,921::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:32:47,259::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:33:05,164::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:33:09,443::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:33:09,445::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:33:09,446::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp4stfppva 
+apiLogger::2020-03-16 14:33:09,446::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:33:09,446::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:33:10,794::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:33:10,811::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:33:10,823::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:33:10,824::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:33:10,824::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:33:10,824::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:33:10,824::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:33:10,824::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:33:10,824::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:33:10,824::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:33:19,192::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:33:19,193::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:34:13,054::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:34:15,664::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:34:15,665::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:34:15,666::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpvkcu5wq3 
+apiLogger::2020-03-16 14:34:15,666::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:34:15,666::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:34:17,071::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:34:17,087::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:34:17,098::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:34:17,099::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:34:17,099::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:34:17,099::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:34:17,099::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:34:17,099::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:34:17,099::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:34:17,100::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:34:25,482::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:34:25,483::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:39:11,760::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:39:14,036::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:39:16,664::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:39:16,666::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:39:16,666::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmp72jparkx 
+apiLogger::2020-03-16 14:39:16,666::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:39:16,666::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:39:18,066::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:39:18,083::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:39:18,096::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:39:18,096::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:39:18,096::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:39:18,096::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:39:18,096::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:39:18,096::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:39:18,096::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:39:18,096::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:39:26,597::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:39:26,597::structured_code.py::(line:87)::struct_parser()::INFO : parseFromModule missing in the merckAries package
+apiLogger::2020-03-16 14:39:26,597::structured_code.py::(line:88)::struct_parser()::ERROR : 'dict' object has no attribute 'upadte'
+apiLogger::2020-03-16 14:39:26,597::structured_code.py::(line:89)::struct_parser()::DEBUG : 
+$startTrace::::Traceback (most recent call last):
+$  File "/home/cyrax/pvi-form-engine/api/structured_code.py", line 84, in struct_parser
+$    x = postProcessGeneric(x)
+$  File "/home/cyrax/pvi-form-engine/api/postProcessGeneric.py", line 6, in postProcessGeneric
+$    outputJSON["events"][i].upadte(reportedReaction="Not Specified")
+$AttributeError: 'dict' object has no attribute 'upadte'::::endTrace
+apiLogger::2020-03-16 14:39:26,597::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories
+apiLogger::2020-03-16 14:39:42,823::run_pvi_api.py::(line:28)::read_env_var()::DEBUG : in config
+apiLogger::2020-03-16 14:39:44,823::run_pvi_api.py::(line:17)::call_main()::INFO : ********** NEW PARSING STARTS HERE **********
+
+apiLogger::2020-03-16 14:39:44,826::pvi_api.py::(line:42)::init_dir()::INFO : creating temp directories
+apiLogger::2020-03-16 14:39:44,827::pvi_api.py::(line:56)::init_dir()::INFO : Successfully created the directory /tmp/tmpgbj5rgh7 
+apiLogger::2020-03-16 14:39:44,827::pvi_api.py::(line:129)::main_function()::DEBUG : Pass header is: 
+apiLogger::2020-03-16 14:39:44,827::pvi_api.py::(line:132)::main_function()::DEBUG : decoded pass is: 
+apiLogger::2020-03-16 14:39:46,214::content_type.py::(line:77)::find_content_type()::INFO : file type is docx
+apiLogger::2020-03-16 14:39:46,231::content_type.py::(line:79)::find_content_type()::INFO : Individual Case Report
+Date Learned: 2019-10-03
+
+Protocol # 3475-412
+Initial Date Learned: 2019-04-03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+apiLogger::2020-03-16 14:39:46,243::content_type.py::(line:81)::find_content_type()::INFO : discovered content type
+apiLogger::2020-03-16 14:39:46,243::content_type.py::(line:82)::find_content_type()::DEBUG : ['MerckAries', 'merckAries']
+apiLogger::2020-03-16 14:39:46,243::content_type.py::(line:84)::find_content_type()::DEBUG : inside not unknown
+apiLogger::2020-03-16 14:39:46,243::pvi_api.py::(line:166)::main_function()::DEBUG : ['MerckAries', 'merckAries', 'Individual Case Report\nDate Learned: 2019-10-03\n\nProtocol # 3475-412\nInitial Date Learned: 2019-04-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n']
+apiLogger::2020-03-16 14:39:46,244::structured_code.py::(line:17)::struct_parser()::INFO : parsing structured form
+apiLogger::2020-03-16 14:39:46,244::structured_code.py::(line:21)::struct_parser()::INFO : Content type is MerckAries
+apiLogger::2020-03-16 14:39:46,244::structured_code.py::(line:22)::struct_parser()::INFO : Module name is merckAries
+apiLogger::2020-03-16 14:39:46,244::structured_code.py::(line:23)::struct_parser()::DEBUG : going for if condition
+apiLogger::2020-03-16 14:39:54,309::structured_code.py::(line:79)::struct_parser()::INFO : completed parsing in merckAries
+apiLogger::2020-03-16 14:39:54,310::pvi_api.py::(line:71)::flush_dir()::INFO : now cleaning temp directories

@@ -1,0 +1,4 @@
+# SERVER IP on which you want to run API
+PVI_AI_SERVER '0.0.0.0'
+# SERVER PORT on which you want to run API
+PVI_AI_PORT 9999

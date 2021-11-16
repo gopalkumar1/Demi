@@ -1,0 +1,4 @@
+content_type|identification_strings|module_name
+"NNI"|"NNI Employee","Patient Gender"|"generic"
+"NNI_R2"|"Information about the person who experienced the side effect"|"generic"
+

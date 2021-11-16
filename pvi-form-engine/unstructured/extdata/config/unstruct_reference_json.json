@@ -1,0 +1,295 @@
+{
+    "senderCaseUid": null,
+    "senderCaseUid_acc": null,
+    "senderCaseVersion": null,
+    "senderCaseVersion_acc": null,
+    "summary": {
+      "caseDescription": null,
+      "caseDescription_acc": null,
+      "senderComments": null,
+      "senderComments_acc": null,
+      "additionalNotes": null
+    },
+  "relevantTests": null,
+  "relevantTests_acc": null,
+  "receiptDate": null,
+  "receiptDate_acc": null,
+  "mostRecentReceiptDate": null,
+  "mostRecentReceiptDate_acc": null,
+  "reporters": [
+    {
+      "country": null,
+      "country_acc": null,
+      "country_viewid": null,
+      "city": null,
+      "city_acc": null,
+      "givenName": null,
+      "givenName_acc": null,
+      "firstName": null,
+      "firstName_acc": null,
+      "middleName": null,
+      "middleName_acc": null,
+      "lastName": null,
+      "lastName_acc": null,
+      "postcode": null,
+      "postcode_acc": null,
+      "title": null,
+      "title_acc": null,
+      "street": null,
+      "street_acc": null,
+      "organization": null,
+      "organization_acc": null,
+      "state": null,
+      "state_acc": null,
+      "department": null,
+      "department_acc": null,
+      "email": null,
+      "email_acc": null,
+      "primary": true,
+      "fax": null,
+      "telephone": null,
+      "qualification": null,
+      "qualification_acc": null,
+      "qualification_viewid": null
+    }
+    ],
+  "study": {
+    "studyNumber": null,
+    "studyNumber_viewid": null,
+    "studyNumber_acc": null,
+    "studyType": null,
+    "studyType_viewid": null,
+    "studyType_acc": null
+
+  },
+  "sourceType":[{"value": null,
+  "value_viewid": null,
+  "value_acc": null}],
+  "patient": {
+    "additionalRelevantMedicalHistory": null,
+    "gender": null,
+    "gender_acc": null,
+    "gender_viewid": null,
+    "patientId": null,
+    "patientId_acc": null,
+    "weight": null,
+    "weight_acc": null,
+    "weight_viewid": null,
+    "weightUnit": null,
+    "weightUnit_acc": null,
+    "height": null,
+    "height_viewid": null,
+    "height_acc":null,
+    "heightUnit": null,
+    "heightUnit_acc":null,
+    "pregnancy":null,
+    "pregnancy_viewid":null,
+    "name": null,
+    "name_acc": null,
+    "age": {
+      "inputValue": null,
+      "inputValue_viewid": null,
+      "inputValue_acc": null,
+      "ageType": null
+    }
+  },
+  "events": [
+    {
+      "seq_num": 1,
+      "country": null,
+      "country_acc": null,
+      "country_viewid": null,
+      "reactionCoded": null,
+      "reactionCoded_viewid": null,
+      "reactionCoded_acc": null,
+      "reportedReaction": null,
+      "reportedReaction_viewid": null,
+      "reportedReaction_acc": null,
+      "medicallyConfirmed": null,
+      "medicallyConfirmed_acc": null,
+      "startDate": null,
+      "startDate_acc": null,
+      "endDate":null,
+      "endDate_acc": null,
+      "seriousnesses": [
+        {
+            "value": null,
+            "value_viewid": null,
+            "value_acc": null
+        }
+      ],
+      "outcome":null,
+      "outcome_viewid":null,
+      "outcome_acc": null
+    }
+    ],
+  "products": [
+    {
+      "seq_num": null,
+      "license_value": null,
+      "license_value_viewid": null,
+      "license_value_acc": null,
+      "ingredients": [
+        {
+          "value": null,
+          "value_acc": null,
+          "value_viewid": null,
+          "strength": null,
+          "strength_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+        ],
+      "dosageForm_value": null,
+      "dosageForm_value_acc": null,
+      "dosageForm_value_viewid": null,
+      "concentration": [
+        {
+          "value": null,
+          "value_acc": null,
+          "unit": null,
+          "unit_acc": null
+        }
+        ],
+      "indications": [
+        {
+          "reportedReaction": null,
+          "reportedReaction_acc": null,
+          "reactionCoded": null,
+          "reactionCoded_acc": null
+        }
+        ],
+      "role_value": "suspect",
+      "doseInformations": [
+        {
+          "dose_inputValue": null,
+          "dose_inputValue_acc": null,
+          "dose_inputValue_viewid": null,
+          "frequency_value": null,
+          "frequency_value_acc": null,
+          "frequency_value_viewid": null,
+          "duration": null,
+          "duration_acc": null,
+          "route_value": null,
+          "route_value_viewid": null,
+          "route_value_acc": null,
+          "customProperty_batchNumber_value": null,
+          "customProperty_batchNumber_value_acc": null,
+          "customProperty_expiryDate": null,
+          "customProperty_expiryDate_acc": null,
+          "endDate_acc": null,
+          "endDate": null,
+          "startDate": null,
+          "startDate_acc": null,
+          "description": null,
+          "description_acc": null
+        }
+        ],
+      "actionTaken": {
+
+          "value": null,
+          "value_acc": null
+
+      },
+      "additionalDrugInfo": [
+        {
+          "value": null
+        }
+        ],
+      "implantDate": null,
+      "explantDate": null
+    }
+  ],
+
+  "productEventMatrix": [
+    {
+      "product_seq_num": null,
+      "product_seq_num_acc": null,
+      "event_seq_num": null,
+      "event_seq_num_acc":null,
+      "rechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "dechallenge": {
+        "value": null,
+        "value_acc": null
+      },
+      "relatednessAssessments": [
+        {
+          "result": {
+            "value": null,
+            "value_acc": null
+          }
+        }
+        ]
+    }
+    ],
+  "seriousnesses": [
+    {
+      "value": null,
+      "value_acc": null
+    },
+    {
+      "value": null,
+      "value_acc": null
+    }
+    ],
+
+  "deathDetail": {
+    "deathDate": {
+      "date": null,
+      "date_acc": null
+    },
+    "autopsyDone": null,
+    "autopsyDone_acc": null,
+    "deathCauses":{
+      "reportedReaction": null,
+      "reportedReaction_acc": null
+    }
+  },
+  "tests": [
+        {
+            "seq_num": 1,
+            "startDate": null,
+            "testName": null,
+            "testName_acc": null,
+            "testName_viewid": null,
+            "testAssessment": null,
+            "testNotes": null,
+            "testResult": null,
+            "testResultUnit": null,
+            "testHigh": null,
+            "testLow": null
+        }
+    ],
+  "literatures": [
+        {
+            "author": null,
+            "title": null,
+            "journal":null,
+            "vol": null,
+            "year":null,
+            "pages": null
+        }
+    ],
+  "entitylocation": {
+    "entities": {
+      "0": {
+        "entity_label": null,
+        "entity_text": null,
+        "sent_id": null,
+        "start": null,
+        "end": null
+      }
+    },
+    "sentences": {
+      "0": " ",
+      "1" : " "
+    }
+  },
+  "module_name": "unstructure",
+  "model_type": "unstructure",
+  "code": 6,
+  "message": "Unstructured text recieved"
+}

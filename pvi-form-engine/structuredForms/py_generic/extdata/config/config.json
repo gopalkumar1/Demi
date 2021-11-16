@@ -1,0 +1,14 @@
+{
+    "base-generic-url": "http://0.0.0.0",
+    "port": 4455,
+    "formids": {
+	"RGN_CIOMS_1" : "a668521a-8300-11eb-9fac-12414bf81c8f",
+	"RGN_CIOMS_2" : "04fcb120-9145-11eb-9968-12414bf81c8f",
+        "CALL_CENTER" : "17682bfa-8ad8-11eb-afef-12414bf81c8f",
+	"RGN_1788" : "e8d46645-9d5c-4979-bef1-de7f7e948fa2",
+	"RGN_16113" : "6ac2fd76-db74-11e9-9356-309c23285c69",
+	"REGN_1625" : "6bc95386-fc1b-11eb-b839-12414bf81c8f"
+    }
+}
+
+

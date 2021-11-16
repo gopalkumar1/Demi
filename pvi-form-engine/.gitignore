@@ -1,0 +1,9 @@
+unstructured/extdata/models
+py_comm_comp/__pycache__/
+structuredForms/py_cioms/__pycache__/
+structuredForms/py_merckAries/__pycache__
+structuredForms/py_mnk/__pycache__
+structuredForms/py_nsc/__pycache__
+structuredForms/py_std_ae/__pycache__
+api/__pycache__
+venv

@@ -1,0 +1,158 @@
+FREQ,ROUTE,FORMULATION
+a.c.,auricular (otic),aerosol
+alt. h.,buccal,"aerosol, foam"
+a.m.,conjunctival,"aerosol, metered"
+bd,cutaneous,"aerosol, powder"
+b.d.,dental,"aerosol, spray"
+bds,electro-osmosis,"bar, chewable"
+b.d.s,endocervical,bead
+BDS,endosinusial,capsule
+bid,endotracheal,"capsule, coated"
+b.i.d.,enteral,"capsule, coated pellets"
+bis,epidural,"capsule, coated, extended release"
+biw,extra‑amniotic,"capsule, delayed release"
+b.i.w,extracorporeal,"capsule, delayed release pellets"
+cc,hemodialysis,"capsule, extended release"
+cyclical,infiltration,"capsule, film coated, extended release"
+fxd,interstitial,"capsule, gelatin coated"
+FXD,intra-abdominal,"capsule, liquid filled"
+g1h,intra-amniotic,cellular sheet
+hs,intra-arterial,chewable gel
+h.s.,intra-articular,cloth
+noct.,intrabiliary,concentrate
+nocte,intrabronchial,cream
+od,intrabursal,"cream, augmented"
+od,intracardiac,crystal
+o.d,intracartilaginous,disc
+p.c.,intracaudal,douche
+p.m.,intracavernous,dressing
+PM,intracavitary,elixir
+PM,intracerebral,emulsion
+prn,intracisternal,enema
+prn,intracorneal,extract
+p.r.n.,"intracoronal, dental","fiber, extended release"
+q.,intracoronary,film
+q12,intracorporus cavernosum,"film, extended release"
+q1-2,intradermal,"film, soluble"
+q12h,intradiscal,for solution
+q. 12h,intraductal,for suspension
+q. 1-2h,intraduodenal,"for suspension, extended release"
+q.12.h,intradural,gas
+q1d,intraepidermal,gel
+q.1.d.,intraesophageal,"gel, dentifrice"
+q.1.h.,intragastric,"gel, metered"
+q2h,intragingival,globule
+q.2.h.,intraileal,granule
+q3h,intralesional,"granule, delayed release"
+q.3.h,intraluminal,"granule, effervescent"
+q3w,intralymphatic,"granule, for solution"
+q.3.w,intramedullary,"granule, for suspension"
+q4h,intrameningeal,"granule, for suspension, extended release"
+q.4.h.,intramuscular,"gum, chewing"
+q5h,intraocular,implant
+q.5.h,intraovarian,inhalant
+q5w,intrapericardial,injectable foam
+q.5.w,intraperitoneal,"injectable, liposomal"
+q6h,intrapleural,injection
+q.6.h.,intraprostatic,"injection, emulsion"
+q8h,intrapulmonary,"injection, lipid complex"
+q.8.h.,intrasinal,"injection, powder, for solution"
+qam,intraspinal,"injection, powder, for suspension"
+q.a.m,intrasynovial,"injection, powder, for suspension, extended release"
+qAM,intratendinous,"injection, powder, lyophilized, for liposomal suspension"
+qd,intratesticular,"injection, powder, lyophilized, for solution"
+q.d.,intrathecal,"injection, powder, lyophilized, for suspension"
+qds,intrathoracic,"injection, powder, lyophilized, for suspension, extended release"
+q.d.s,intratubular,"injection, solution"
+q.d.s,intratumor,"injection, solution, concentrate"
+qh,intratympanic,"injection, suspension"
+q.h.,intrauterine,"injection, suspension, extended release"
+qhs,intravascular,"injection, suspension, liposomal"
+q.h.s.,intravenous,"injection, suspension, sonicated"
+qid,intravenous bolus,insert
+q.i.d,intravenous drip,"insert, extended release"
+qm,intraventricular,intrauterine device
+qm3,intravesical,irrigant
+qod,intravitreal,jelly
+q.o.d.,iontophoresis,kit
+qow,irrigation,liniment
+q.o.w,laryngeal,lipstick
+qpm,nasal,liquid
+q.p.m.,nasogastric,"liquid, extended release"
+qPM,not applicable,lotion
+qw,occlusive dressing technique,"lotion, augmented"
+qw,ophthalmic,lotion/shampoo
+qwk,oral,lozenge
+q.wk.,oropharyngeal,mouthwash
+tds,other,not applicable
+t.d.s,parenteral,oil
+TDS,percutaneous,ointment
+tid,periarticular,"ointment, augmented"
+t.i.d,peridural,paste
+tiw,perineural,"paste, dentifrice"
+t.i.w,periodontal,pastille
+ud,rectal,patch
+u.d.,respiratory (inhalation),"patch, extended release"
+,retrobulbar,"patch, extended release, electrically controlled"
+,soft tissue,pellet
+,subarachnoid,"pellet, implantable"
+,subconjunctival,"pellets, coated, extended release"
+,subcutaneous,pill
+,sublingual,plaster
+,submucosal,poultice
+,topical,powder
+,transdermal,"powder, dentifrice"
+,transmucosal,"powder, for solution"
+,transplacental,"powder, for suspension"
+,transtracheal,"powder, metered"
+,transtympanic,ring
+,unassigned,rinse
+,unknown,salve
+,ureteral,shampoo
+,urethral,"shampoo, suspension"
+,vaginal,soap
+,,solution
+,,"solution, concentrate"
+,,"solution, for slush"
+,,"solution, gel forming / drops"
+,,"solution, gel forming, extended release"
+,,solution/ drops
+,,sponge
+,,spray
+,,"spray, metered"
+,,"spray, suspension"
+,,stick
+,,strip
+,,suppository
+,,"suppository, extended release"
+,,suspension
+,,"suspension, extended release"
+,,suspension/ drops
+,,swab
+,,syrup
+,,system
+,,tablet
+,,"tablet, chewable"
+,,"tablet, chewable, extended release"
+,,"tablet, coated"
+,,"tablet, coated particles"
+,,"tablet, delayed release"
+,,"tablet, delayed release particles"
+,,"tablet, effervescent"
+,,"tablet, extended release"
+,,"tablet, film coated"
+,,"tablet, film coated, extended release"
+,,"tablet, for solution"
+,,"tablet, for suspension"
+,,"tablet, multilayer"
+,,"tablet, multilayer, extended release"
+,,"tablet, orally disintegrating"
+,,"tablet, orally disintegrating, delayed release"
+,,"tablet, soluble"
+,,"tablet, sugar coated"
+,,tablet with sensor
+,,tampon
+,,tape
+,,tincture
+,,troche
+,,wafer

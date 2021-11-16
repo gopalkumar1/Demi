@@ -1,0 +1,6 @@
+[2021-03-23 14:34:49 +0000] [31451] [INFO] Starting gunicorn 20.0.4
+[2021-03-23 14:34:49 +0000] [31451] [INFO] Listening at: http://0.0.0.0:9999 (31451)
+[2021-03-23 14:34:49 +0000] [31451] [INFO] Using worker: sync
+[2021-03-23 14:34:49 +0000] [31456] [INFO] Booting worker with pid: 31456
+[2021-03-23 14:37:53 +0000] [31451] [INFO] Handling signal: term
+[2021-03-23 14:37:53 +0000] [31451] [INFO] Shutting down: Master

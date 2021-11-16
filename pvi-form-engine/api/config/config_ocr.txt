@@ -1,0 +1,4 @@
+# no of cores to be used
+ocr_threads  '1'
+logging FALSE
+
